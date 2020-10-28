@@ -3,7 +3,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 - [GANS](#gans)
 - [Deep Learning](#deep-learning)
-- [Measurement](#measurement)
+- [Image Measurement](#image-measurement)
 - [Activity Analysis](#activity-analysis)
 - [Fingerprint](#fingerprints)
 - [Depth Camera](#depth-camera)
@@ -14,7 +14,7 @@ It's the repository for collecting papers that I read and category them accordin
 ## Deep Learning
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
 
-## Measurement
+## Image Measurement
 - **LPIPS**: The unreasonable effectiveness of deep features as a perceptual metric, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html) | [Github](https://github.com/richzhang/PerceptualSimilarity)]
 
 ## Activity Analysis
