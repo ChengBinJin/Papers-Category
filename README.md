@@ -4,7 +4,13 @@ It's the repository for collecting papers that I read and category them accordin
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Structure](#structure)
-  - [Style-based Image-to-Image Translation](#style-based-image-to-image-translation)
+  - [Compression](#compression)
+  - [VAE](#vae)
+  - [Supervised Image-to-Image Translation](#supervised-image-to-image-translation)
+  - [Unsupervised Image-to-Image Translation](#unsupervised-image-to-image-translation)
+  - [Diverse Image-to-Image Translation](#diverse-image-to-image-translation)
+  - [Supervised Interpretable GAN Control](#supervised-interpretable-gan-control)
+  - [Unsupervised Interpretable GAN Control](#unsupervised-interpretable-gan-control)
   - [Cartoon](#cartoon)
   - [Face Attribute Transfer](#face-attribute-transfer)
   - [Face Change](#face-change)  
@@ -25,16 +31,24 @@ It's the repository for collecting papers that I read and category them accordin
 - Improved techniques for training GANs, NeurIPS2014 [[Paper](http://papers.nips.cc/paper/6124-improved-techniques-for-training-gans) | [Github](https://github.com/openai/improved-gan)]
 #### Structure
 - **StyleGANv2**: Analyzing and improving the image quality of StyleGAN, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Karras_Analyzing_and_Improving_the_Image_Quality_of_StyleGAN_CVPR_2020_paper.html) | [Github](https://github.com/NVlabs/stylegan2)]  
+#### Compression
+- GAN compression: efficient architectures for interactive conditional GANs, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Li_GAN_Compression_Efficient_Architectures_for_Interactive_Conditional_GANs_CVPR_2020_paper.html) | [Github](https://github.com/mit-han-lab/gan-compression)]
 #### VAE
 - Autoencoding beyond pixels using a learned similarity metric, ICML2016, [[Paper](http://proceedings.mlr.press/v48/larsen16.html) | [Github](https://github.com/andersbll/autoencoding_beyond_pixels)]  
+#### Supervised Image-to-Image Translation  
+- **pix2pixHD**: High-resolution image synthesis and semantic manipulation with conditional GANs, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_High-Resolution_Image_Synthesis_CVPR_2018_paper.html) | [Github](https://github.com/NVIDIA/pix2pixHD)]
 #### Unsupervised Image-to-Image Translation  
 - **StarGANv1**: StarGAN: unified generative adversarial networks for multi-domain image-to-image translation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.html) | [Github](https://github.com/yunjey/stargan)]  
 - **U-GAT-IT**: U-GAT-IT: unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation, ICLR2020 [[Paper](https://arxiv.org/abs/1907.10830) | [Github](https://github.com/znxlwm/UGATIT-pytorch)]  
 - Breaking the cycle - colleagues are all you need, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Nizan_Breaking_the_Cycle_-_Colleagues_Are_All_You_Need_CVPR_2020_paper.html) | [Github](https://github.com/Onr/Council-GAN)]
-#### Style-based Image-to-Image Translation  
+#### Diverse Image-to-Image Translation  
 - **SPADE**: Semantic image synthesis with spatially adaptive normalization, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.html) | [Github](https://github.com/NVlabs/SPADE)]  
 - **SEAN**: SEAN: image synthesis with semantic region-adaptive normalization, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_SEAN_Image_Synthesis_With_Semantic_Region-Adaptive_Normalization_CVPR_2020_paper.html) | [Github](https://github.com/ZPdesu/SEAN)]  
-- **StarGANv2**: StarGAN v2: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]  
+- **StarGANv2**: StarGAN v2: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]    
+#### Supervised Interpretable GAN Control  
+- **StyleFlow**: StyleFlow: attribute-conditioned exploration of StyleGAN-generated image using conditional continuous normalizing flows, arXiv2020 [[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200802401A/abstract)]   
+#### Unsupervised Interpretable GAN Control  
+- **GANSpace**: GANSpace: discovering interpretable GAN controls, arXiv2020 [[Paper](https://arxiv.org/abs/2004.02546) | [Github](https://github.com/harskish/ganspace)]  
 #### Cartoon  
 - **CartoonGAN**: CartoonGAN: generative adversarial networks for photo cartoonization, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.html) | [Github](https://github.com/FlyingGoblin/CartoonGAN)]  
 - **Whie-box**: Learning to cartoonize using white-box cartoon representations supplementary materials, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.html) | [Github](https://github.com/SystemErrorWang/White-box-Cartoonization)]
@@ -58,6 +72,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **LPIPS**: The unreasonable effectiveness of deep features as a perceptual metric, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html) | [Github](https://github.com/richzhang/PerceptualSimilarity)]
 
 ## Activity Analysis
+- The recognition of human movement using temporal templates, PAMI2001 [[Paper](https://ieeexplore.ieee.org/abstract/document/910878)]
 - Manifold learning for ToF-based human body tracking and activity recognition, BMVC2010 [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.3302&rep=rep1&type=pdf)]  
 - A unified tree-based framework for joint action localization, recognition and segmentation, CVIU2013 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314212001749)]  
 - 3D convolutional neural networks for human action recognition, PAMI2013 [[Paper](https://ieeexplore.ieee.org/abstract/document/6165309)]  
