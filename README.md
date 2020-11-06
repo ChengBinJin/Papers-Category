@@ -11,6 +11,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Diverse Image-to-Image Translation](#diverse-image-to-image-translation)
   - [Supervised Interpretable GAN Control](#supervised-interpretable-gan-control)
   - [Unsupervised Interpretable GAN Control](#unsupervised-interpretable-gan-control)
+  - [GAN Inversion](#gan-inversion)
   - [Cartoon](#cartoon)
   - [Face Attribute Transfer](#face-attribute-transfer)
   - [Face Change](#face-change)  
