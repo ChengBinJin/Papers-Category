@@ -47,7 +47,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Unsupervised image-to-image translation via pre-trained StyleGAN2 Network, arXiv2020 [[Paper](Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network) | [Github](https://github.com/HideUnderBush/UI2I_via_StyleGAN2)]  
 #### Supervised Image-to-Image Translation  
 - **pix2pixHD**: High-resolution image synthesis and semantic manipulation with conditional GANs, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_High-Resolution_Image_Synthesis_CVPR_2018_paper.html) | [Github](https://github.com/NVIDIA/pix2pixHD)]
-- **psp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
+- **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
 #### Unsupervised Image-to-Image Translation  
 - **StarGANv1**: StarGAN: unified generative adversarial networks for multi-domain image-to-image translation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.html) | [Github](https://github.com/yunjey/stargan)]  
 - **U-GAT-IT**: U-GAT-IT: unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation, ICLR2020 [[Paper](https://arxiv.org/abs/1907.10830) | [Github](https://github.com/znxlwm/UGATIT-pytorch)]  
@@ -56,7 +56,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **SPADE**: Semantic image synthesis with spatially adaptive normalization, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.html) | [Github](https://github.com/NVlabs/SPADE)]  
 - **SEAN**: SEAN: image synthesis with semantic region-adaptive normalization, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_SEAN_Image_Synthesis_With_Semantic_Region-Adaptive_Normalization_CVPR_2020_paper.html) | [Github](https://github.com/ZPdesu/SEAN)]  
 - **StarGANv2**: StarGAN v2: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]    
-- **psp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
+- **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
 #### Supervised Interpretable GAN Control  
 - StyleGAN2 distillation of feed-forward image manipulation, arXvi2020 [[Paper](https://arxiv.org/abs/2003.03581) | [Github](https://github.com/EvgenyKashin/stylegan2-distillation)]  
 - **StyleFlow**: StyleFlow: attribute-conditioned exploration of StyleGAN-generated image using conditional continuous normalizing flows, arXiv2020 [[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200802401A/abstract)]   
