@@ -22,6 +22,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Inpainting](#Inpainting)
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
+- [Medical](#medical)
 - [Image Measurement](#image-measurement)
 - [Activity Analysis](#activity-analysis)
 - [Attribute Prediction](#attribute-prediction)
@@ -39,6 +40,7 @@ It's the repository for collecting papers that I read and category them accordin
 #### Training Technique  
 - Improved techniques for training GANs, NeurIPS2014 [[Paper](http://papers.nips.cc/paper/6124-improved-techniques-for-training-gans) | [Github](https://github.com/openai/improved-gan)]  
 #### Training with Limited Data
+- **Freeze-D**: Freeze the Discriminator: A Simple Baseline forFine-Tuning GANs, arXiv2020 [[Paper](https://arxiv.org/abs/2002.10964) | [Github](https://github.com/sangwoomo/FreezeD)]  
 - **StyleGAN2-ADA**: Training Generative Adversarial Networks with Limited Data, arXiv2020 [[Paper](https://arxiv.org/abs/2006.06676) | [Github](https://github.com/NVlabs/stylegan2-ada)]  
 #### Structure  
 - **PGGAN**: Progressive growing of GANs for improved quality, stability, and variation, ICLR2018 [[Paper](https://arxiv.org/abs/1710.10196) | [Github](https://github.com/tkarras/progressive_growing_of_gans)]
@@ -73,6 +75,7 @@ It's the repository for collecting papers that I read and category them accordin
 #### Unsupervised Interpretable GAN Control  
 - Spatially Controllable Image Synthesis with Internal Representation Collaging, arXiv2018 [[Paper](https://arxiv.org/abs/1811.10153) | [Github](https://github.com/quolc/neural-collage)]  
 - **GANSpace**: GANSpace: discovering interpretable GAN controls, arXiv2020 [[Paper](https://arxiv.org/abs/2004.02546) | [Github](https://github.com/harskish/ganspace)]  
+- Navigating the GAN Parameter Space for Semantic Image Editing, arXiv2020 [[Paper](https://arxiv.org/abs/2011.13786) | [Github](https://github.com/yandex-research/navigan)]  
 - Unsupervised discovery of interpretable directions in the GAN latent space, ICML2020 [[Paper](https://arxiv.org/abs/2002.03754) | [Github](https://github.com/anvoynov/GANLatentDiscovery)]  
 - Mask-Guided Discovery of Semantic Manifolds in Generative Models, NeursIPS-Worksho2020 [[Paper](https://mengyu.page/files/masked-gan-manifold.pdf) | [Github](https://github.com/bmolab/masked-gan-manifold)]
 - The hessian penalty: a weak prior for unsupervised disentanglement, ECCV2020 [[Paper](https://arxiv.org/abs/2008.10599) | [Github](https://github.com/wpeebles/hessian_penalty)]  
@@ -112,6 +115,9 @@ It's the repository for collecting papers that I read and category them accordin
 - **MobileNetv1**: MobileNets: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
 - **MobileNetv2**: MobileNetV2: inverted residuals and linear bottlenecks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html) | [Github](https://github.com/d-li14/mobilenetv2.pytorch)]  
 - **MobileNetv3**: Searching for MobileNetV3, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) | [Github](https://github.com/leaderj1001/MobileNetV3-Pytorch)]  
+
+## Medical
+- Virtual PET Images from CT Data using Deep Convolutional Networks: Initial Results, SASHMI2017 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-68127-6_6)]  
 
 ## Image Measurement
 - **LPIPS**: The unreasonable effectiveness of deep features as a perceptual metric, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html) | [Github](https://github.com/richzhang/PerceptualSimilarity)]
@@ -162,9 +168,11 @@ It's the repository for collecting papers that I read and category them accordin
 ## Image Processing
 - A threshold selection method from gray-level histograms, SMC1979 [[Paper](https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bio/otsu.pdf)]  
 - Dynamic histogram warping of image pairs for constant image brightness, ICIP1995 [[Paper](https://ieeexplore.ieee.org/abstract/document/537491)]  
+- Just Noticeable Defocus Blur Detection and Estimation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Shi_Just_Noticeable_Defocus_2015_CVPR_paper.html)]  
 
 ## Depth Camera
 - Time-of-flight sensors in computer graphics, CGF2010, [[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01583.x)]  
 
 ## Stereo
+- Efficient Stereo Matching for Belief Propagation using Plane Convergence, IPIU2010  
 - Displets-resolving stereo ambiguities using object knowledge, CVPR2015, [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Guney_Displets_Resolving_Stereo_2015_CVPR_paper.html) | [Github](https://github.com/edz-o/displet)]  
