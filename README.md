@@ -65,7 +65,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **StyleFlow**: StyleFlow: attribute-conditioned exploration of StyleGAN-generated image using conditional continuous normalizing flows, arXiv2020 [[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200802401A/abstract)]   
 - Config: controllable neural face image generation, ECCV2020 [[Paper](https://arxiv.org/abs/2005.02671) | [Github](https://github.com/microsoft/ConfigNet)]
 - **InterFaceGAN**: Interpreting the latent space of GANs for semantic face editing, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Shen_Interpreting_the_Latent_Space_of_GANs_for_Semantic_Face_Editing_CVPR_2020_paper.html) | [Github](https://github.com/genforce/interfacegan)]  
-- **InterFaceGAN++**: InterFaceGAN: interpreting the disentangled face representation learend by GANs, arXiv2020 [[Paper](https://arxiv.org/abs/2005.09635) | [Github](https://github.com/genforce/interfacegan)]
+- **InterFaceGAN++**: InterFaceGAN: interpreting the disentangled face representation learend by GANs, PAMI2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9241434) | [Github](https://github.com/genforce/interfacegan)]
 #### Unsupervised Interpretable GAN Control  
 - **GANSpace**: GANSpace: discovering interpretable GAN controls, arXiv2020 [[Paper](https://arxiv.org/abs/2004.02546) | [Github](https://github.com/harskish/ganspace)]  
 - Unsupervised discovery of interpretable directions in the GAN latent space, ICML2020 [[Paper](https://arxiv.org/abs/2002.03754) | [Github](https://github.com/anvoynov/GANLatentDiscovery)]
