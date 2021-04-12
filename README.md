@@ -4,7 +4,8 @@ It's the repository for collecting papers that I read and category them accordin
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Training with Limited Data](#training-with-limited-data)
-  - [Structure](#structure)
+  - [Structure](#structure)  
+  - [Loss](#loss)
   - [Compression](#compression)
   - [VAE](#vae)
   - [Layer Swapping](#layer-swapping)
@@ -20,6 +21,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Face Change](#face-change)  
   - [Face Restoration](#face-restoration)
   - [Inpainting](#Inpainting)
+  - [Image Animiation](#image-animation)
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
 - [Medical](#medical)
@@ -47,6 +49,8 @@ It's the repository for collecting papers that I read and category them accordin
 #### Structure  
 - **PGGAN**: Progressive growing of GANs for improved quality, stability, and variation, ICLR2018 [[Paper](https://arxiv.org/abs/1710.10196) | [Github](https://github.com/tkarras/progressive_growing_of_gans)]
 - **StyleGANv2**: Analyzing and improving the image quality of StyleGAN, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Karras_Analyzing_and_Improving_the_Image_Quality_of_StyleGAN_CVPR_2020_paper.html) | [Github](https://github.com/NVlabs/stylegan2)]  
+#### Loss  
+- **LSGAN**: Least Squared Generative Adversarial Networks, ICCV2017 [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Mao_Least_Squares_Generative_ICCV_2017_paper.html) | [Github](https://github.com/xudonmao/LSGAN)]  
 #### Compression
 - GAN compression: efficient architectures for interactive conditional GANs, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Li_GAN_Compression_Efficient_Architectures_for_Interactive_Conditional_GANs_CVPR_2020_paper.html) | [Github](https://github.com/mit-han-lab/gan-compression)]
 #### VAE
@@ -67,7 +71,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **SPADE**: Semantic image synthesis with spatially adaptive normalization, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.html) | [Github](https://github.com/NVlabs/SPADE)]  
 - **SEAN**: SEAN: image synthesis with semantic region-adaptive normalization, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_SEAN_Image_Synthesis_With_Semantic_Region-Adaptive_Normalization_CVPR_2020_paper.html) | [Github](https://github.com/ZPdesu/SEAN)]  
 - **StarGANv2**: StarGAN v2: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]    
-- **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
+- **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]  
+- **OASIS**: You Only Need Adversarial Supervision for Semantic Image Synthesis, ICLR2021 [[Paper](https://arxiv.org/abs/2012.04781) | [Github](https://github.com/boschresearch/OASIS)]
 #### Supervised Interpretable GAN Control  
 - StyleGAN2 distillation of feed-forward image manipulation, arXvi2020 [[Paper](https://arxiv.org/abs/2003.03581) | [Github](https://github.com/EvgenyKashin/stylegan2-distillation)]  
 - **StyleFlow**: StyleFlow: attribute-conditioned exploration of StyleGAN-generated image using conditional continuous normalizing flows, arXiv2020 [[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200802401A/abstract)]   
@@ -98,13 +103,17 @@ It's the repository for collecting papers that I read and category them accordin
 #### Face Attribute Transfer
 - **ATTGAN**: AttGAN: facial attribute editing by only changing what you want, TIP2019, [[Paper](https://arxiv.org/pdf/1711.10678.pdf) | [Github](https://github.com/LynnHo/AttGAN-Tensorflow)]  
 - **STGAN**: STGAN: a unified selective transfer network for arbitrary image attribute editing, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_STGAN_A_Unified_Selective_Transfer_Network_for_Arbitrary_Image_Attribute_CVPR_2019_paper.html) | [Github](https://github.com/csmliu/STGAN)]  
-- **PA-GAN**: PA-GAN: progressive attention generative adversarial network for facial attribute editing, arXiv2020 [[Paper](https://arxiv.org/abs/2007.05892) | [Github](https://github.com/LynnHo/PA-GAN-Tensorflow)]
+- **PA-GAN**: PA-GAN: progressive attention generative adversarial network for facial attribute editing, arXiv2020 [[Paper](https://arxiv.org/abs/2007.05892) | [Github](https://github.com/LynnHo/PA-GAN-Tensorflow)]  
+- Image-to-Images Translation via Hierarchical Style Disentanglement, CVPR2021 [[Paper](https://arxiv.org/abs/2103.01456) | [Github](https://github.com/imlixinyang/HiSD)]  
 #### Face Change
 - FaceShifter towards high fidelity and occlusion aware face swapping, CVPR2020 [[Paper](https://arxiv.org/abs/1912.13457) | [Github](https://github.com/mindslab-ai/faceshifter)]
 #### Face Restoration
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
 #### Inpainting  
-- Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]
+- Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
+- **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper]() | [Github](https://github.com/KumapowerLIU/PD-GAN)]
+#### Image Animation
+- First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]
 
 ## Style Transfer
 - Image style transfer using convolutional neural networks, CVPR2016 [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html) | [Github](https://github.com/cysmith/neural-style-tf)]
