@@ -22,6 +22,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Face Restoration](#face-restoration)
   - [Inpainting](#Inpainting)
   - [Image Animiation](#image-animation)
+  - [Fashion](#fashion)
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
 - [Medical](#medical)
@@ -113,14 +114,19 @@ It's the repository for collecting papers that I read and category them accordin
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
 - **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper]() | [Github](https://github.com/KumapowerLIU/PD-GAN)]
 #### Image Animation
-- First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]
+- **FOMM**: First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]  
+- **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
+##### Fashion
+- Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
+- FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html)]
 
 ## Style Transfer
 - Image style transfer using convolutional neural networks, CVPR2016 [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html) | [Github](https://github.com/cysmith/neural-style-tf)]
 - **AdaIN**: Arbitrary style transfer in real-time with adaptive instance normalization, ICCV2017 [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Huang_Arbitrary_Style_Transfer_ICCV_2017_paper.html) | [Github](https://github.com/xunhuang1995/AdaIN-style)]
 
 ## Deep Learning
-- **AlexNet**: ImageNet classification with deep convolutional neural networks, NeurIPS2011 [[Paper](https://dl.acm.org/doi/abs/10.1145/3065386)]
+- **AlexNet**: ImageNet classification with deep convolutional neural networks, NeurIPS2011 [[Paper](https://dl.acm.org/doi/abs/10.1145/3065386)]  
+- Spatial Transformer Networks, NeurIPS2015, [[Paper](https://arxiv.org/abs/1506.02025) | [Gitub](https://github.com/tensorpack/tensorpack/tree/master/examples/SpatialTransformer)]
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
 - **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
 - **MobileNetv1**: MobileNets: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
@@ -175,7 +181,8 @@ It's the repository for collecting papers that I read and category them accordin
 - Intriguing properties of neural networks, arXiv2013 [[Paper](https://arxiv.org/abs/1312.6199)]
 
 ## Traditional Machine Learning
-- **SVM**: A tutorial on support vector machines for pattern recognition, DMKD1998 [[Paper](https://link.springer.com/article/10.1023/A:1009715923555)]
+- **SVM**: A tutorial on support vector machines for pattern recognition, DMKD1998 [[Paper](https://link.springer.com/article/10.1023/A:1009715923555)]  
+- Singular Value Decomposition and Principal Component Analysis, A Practical Approach to Microarray Data Analysis 2003 [[Paper](https://arxiv.org/ftp/physics/papers/0208/0208101.pdf)]
 
 ## Image Processing
 - A threshold selection method from gray-level histograms, SMC1979 [[Paper](https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bio/otsu.pdf)]  
