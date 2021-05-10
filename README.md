@@ -112,8 +112,12 @@ It's the repository for collecting papers that I read and category them accordin
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
 #### Inpainting  
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
-- **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper]() | [Github](https://github.com/KumapowerLIU/PD-GAN)]
+- **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper]() | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
+- DeFLOCNet: Deep Image Editing via Flexible Low-level Control, CVPR2021 [[Paper](https://arxiv.org/abs/2103.12723) | [Github](https://github.com/KumapowerLIU/DeFLOCNet)]  
 #### Image Animation
+- **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]  
+- **GANimation**: GANimation: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)]  
+- **MonkeyNet**: Animating Arbitrary Objects via Deep Motion Transfer, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Siarohin_Animating_Arbitrary_Objects_via_Deep_Motion_Transfer_CVPR_2019_paper.html) | [Github](https://github.com/AliaksandrSiarohin/monkey-net)]
 - **FOMM**: First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]  
 - **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
 ##### Fashion
@@ -193,6 +197,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Time-of-flight sensors in computer graphics, CGF2010, [[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01583.x)]  
 
 ## Stereo
+- A Computer Algorithm for Reconstructing a Scene from Two Projections, Nature1981 [[Paper](https://www.nature.com/articles/293133a0)]
 - Stereo Matching using Belief Propagation, PAMI2003 [[Paper](https://ieeexplore.ieee.org/abstract/document/1206509)]  
 - Efficient Stereo Matching for Belief Propagation using Plane Convergence, IPIU2010  
 - Fast Stereo Matching based on Plane-Converging Belief Propagation using GPU, The Institute of Electronics Engineers of Korea SP 2011, [[Paper](https://www.koreascience.or.kr/article/JAKO201112961963891.page)]  
