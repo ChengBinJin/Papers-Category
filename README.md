@@ -112,7 +112,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
 #### Inpainting  
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
-- **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper]() | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
+- **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper](https://arxiv.org/abs/2105.02201) | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
 - DeFLOCNet: Deep Image Editing via Flexible Low-level Control, CVPR2021 [[Paper](https://arxiv.org/abs/2103.12723) | [Github](https://github.com/KumapowerLIU/DeFLOCNet)]  
 #### Image Animation
 - **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]  
