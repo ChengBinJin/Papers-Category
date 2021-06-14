@@ -31,6 +31,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Attribute Prediction](#attribute-prediction)
 - [Face](#face)
 - [Fingerprint](#fingerprint)
+- [Gaze](#gaze)
 - [Iris](#iris)
 - [Detection](#detection)
 - [Adversarial Attack](#adversarial-attack)
@@ -117,7 +118,9 @@ It's the repository for collecting papers that I read and category them accordin
 #### Image Animation
 - **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]  
 - **GANimation**: GANimation: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)]  
-- **MonkeyNet**: Animating Arbitrary Objects via Deep Motion Transfer, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Siarohin_Animating_Arbitrary_Objects_via_Deep_Motion_Transfer_CVPR_2019_paper.html) | [Github](https://github.com/AliaksandrSiarohin/monkey-net)]
+- Synthesizing Images of Humans in Unseen Poses, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.html) | [Code](https://github.com/balakg/posewarp-cvpr2018)]
+- **MonkeyNet**: Animating Arbitrary Objects via Deep Motion Transfer, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Siarohin_Animating_Arbitrary_Objects_via_Deep_Motion_Transfer_CVPR_2019_paper.html) | [Github](https://github.com/AliaksandrSiarohin/monkey-net)]  
+- Photo Wake-Up: 3D Character Animation from a Single Photo, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Weng_Photo_Wake-Up_3D_Character_Animation_From_a_Single_Photo_CVPR_2019_paper.html)]
 - **FOMM**: First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]  
 - **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
 ##### Fashion
@@ -160,6 +163,8 @@ It's the repository for collecting papers that I read and category them accordin
 - Deep learning face attributes in the wild, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Liu_Deep_Learning_Face_ICCV_2015_paper.html)]
 
 ## Face
+- Unsupervised Discovery of Object Landmarks as Structural Representations, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Unsupervised_Discovery_of_CVPR_2018_paper.html) | [Code](https://github.com/YutingZhang/lmdis-rep)]  
+- Unsupervised Learning of Object Landmarks through Conditional Image Generation, NeurIPS2018 [[Paper](https://arxiv.org/abs/1806.07823) | [Code](https://github.com/tomasjakab/imm)]
 - **Arcface**: Arcface: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
 
 ##  Fingerprint
@@ -168,6 +173,10 @@ It's the repository for collecting papers that I read and category them accordin
 - Assessing the difficulty level of fingerprint datasets based on relative quality measures, ICHBB2011 [[Paper](https://ieeexplore.ieee.org/abstract/document/6094295)]  
 - Type-independent pixel-level alignment point detection for fingerprints, ICHB2011, [[Paper](https://ieeexplore.ieee.org/abstract/document/6094351)]  
 - Assessing the level of difficulty of fingerprint datasets based on relative quality measures, IS2014, [[Paper](https://www.sciencedirect.com/science/article/pii/S0020025513004003)]  
+
+## Gaze
+- DeepWarp: Photorealistic Image Resynthesis for Gaze Manipulation
+Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_20) | [Code](https://github.com/BlueWinters/DeepWarp)]
 
 ## Iris
 - Robust iris segmentation via simple circular and linear filter, JEI2008, [[Paper](https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-17/issue-4/043027/Robust-iris-segmentation-via-simple-circular-and-linear-filters/10.1117/1.3050067.short?SSO=1)]  
