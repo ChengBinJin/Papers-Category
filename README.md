@@ -124,7 +124,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Photo Wake-Up: 3D Character Animation from a Single Photo, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Weng_Photo_Wake-Up_3D_Character_Animation_From_a_Single_Photo_CVPR_2019_paper.html)]
 - **FOMM**: First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]  
 - **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
-##### Fashion
+#### Fashion
 - Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
 - FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html)]
 
