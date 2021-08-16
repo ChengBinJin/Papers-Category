@@ -130,6 +130,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Motion-supervised Co-part Segmentation, ICPR2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9412520) | [Code](https://github.com/AliaksandrSiarohin/motion-cosegmentation)]  
 - **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
 - Stochastic Image-to-Video Synthesis using cINNs, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Dorkenwald_Stochastic_Image-to-Video_Synthesis_Using_cINNs_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/image2video-synthesis-using-cINNs)]  
+- Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modling, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_Few-Shot_Human_Motion_Transfer_by_Personalized_Geometry_and_Texture_Modeling_CVPR_2021_paper.html) | [Code](https://github.com/HuangZhiChao95/FewShotMotionTransfer)]  
 #### Fashion
 - Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
 - FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html)]
@@ -161,9 +162,11 @@ It's the repository for collecting papers that I read and category them accordin
 - Manifold learning for ToF-based human body tracking and activity recognition, BMVC2010 [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.3302&rep=rep1&type=pdf)]  
 - A discriminative key pose sequence model for recognizing human interactions, ICCV2011 [[Paper](https://ieeexplore.ieee.org/abstract/document/6130458)]
 - A large-scale benchmark dataset for event recognition in surveillance video, CVPR2011 [[Paper](https://ieeexplore.ieee.org/abstract/document/5995586)]  
+- Detecting Activities of Daily Living in First-Person Camera Views, CVPR2012 [[Paper](https://ieeexplore.ieee.org/abstract/document/6248010)]  
 - Discriminative latent models for recognizing contextural group activities, PAMI2012 [[Paper](https://ieeexplore.ieee.org/abstract/document/6095563)]  
 - Segmental Multi-Way Local Polling for Video Recognition, ICM2013 [[Paper](https://dl.acm.org/doi/abs/10.1145/2502081.2502167)]  
 - A unified tree-based framework for joint action localization, recognition and segmentation, CVIU2013 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314212001749)]  
+- First-Person Activity Recognition: What Are They Doing to Me? CVPR2013 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2013/html/Ryoo_First-Person_Activity_Recognition_2013_CVPR_paper.html)]  
 - 3D convolutional neural networks for human action recognition, PAMI2013 [[Paper](https://ieeexplore.ieee.org/abstract/document/6165309)]  
 - Real-time human pose recognition in parts from a single depth image, CACM2013 [[Paper](https://dl.acm.org/doi/abs/10.1145/2398356.2398381)]  
 - Efficient human pose estimation from single depth images, PAMI2013 [[Paper](https://ieeexplore.ieee.org/abstract/document/6341759)]
@@ -177,6 +180,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Face
 - Are You Really Smiling at Me? Spontaneous versus Posed Enjoyment Smiles, ECCV2012 [[Paper](https://link.springer.com/chapter/10.1007/978-3-642-33712-3_38)]  
+- OpenFace: A General-Purpose Face Recognition Library with Mobile Applications, CMU School of Computer Science 2016 [[Paper](http://reports-archive.adm.cs.cmu.edu/anon/anon/usr0/ftp/2016/CMU-CS-16-118.pdf) | [Code](https://github.com/cmusatyalab/openface)]  
 - How Far Are We From Solving the 2D & 3D Face Alignment Problem? (And A Dataset of 230,000 3D Facial Landmarks), ICCV2017 [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Bulat_How_Far_Are_ICCV_2017_paper.html) | [Code](https://github.com/1adrianb/2D-and-3D-face-alignment)]
 - Unsupervised Discovery of Object Landmarks as Structural Representations, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Unsupervised_Discovery_of_CVPR_2018_paper.html) | [Code](https://github.com/YutingZhang/lmdis-rep)]  
 - Unsupervised Learning of Object Landmarks through Conditional Image Generation, NeurIPS2018 [[Paper](https://arxiv.org/abs/1806.07823) | [Code](https://github.com/tomasjakab/imm)]  
