@@ -31,6 +31,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Activity Analysis](#activity-analysis)
 - [Attribute Prediction](#attribute-prediction)
 - [Surveillance](#surveillance)
+- [Visual Planning](#visual-planning)
 - [Face](#face)
 - [Fingerprint](#fingerprint)
 - [Gaze](#gaze)
@@ -117,11 +118,13 @@ It's the repository for collecting papers that I read and category them accordin
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
 - **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper](https://arxiv.org/abs/2105.02201) | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
 - DeFLOCNet: Deep Image Editing via Flexible Low-level Control, CVPR2021 [[Paper](https://arxiv.org/abs/2103.12723) | [Github](https://github.com/KumapowerLIU/DeFLOCNet)]  
+
 #### Image Animation
-- **GANimation**: GANimation: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)]  
+- **GANimation**: GANimation: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)] 
 - **Recycle-GAN**: Recycle-GAN: Unsupervised Video Retargeting, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Aayush_Bansal_Recycle-GAN_Unsupervised_Video_ECCV_2018_paper.html) | [Code](https://github.com/aayushbansal/Recycle-GAN)]  
 - Synthesizing Images of Humans in Unseen Poses, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.html) | [Code](https://github.com/balakg/posewarp-cvpr2018)]
 - Every Smile is Unique: Landmark-Guided Diverse Smile Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Every_Smile_Is_CVPR_2018_paper.html)]  
+- **MoCoGAN**: MoCoGAN: Decomposing Motion and Content for Video Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Tulyakov_MoCoGAN_Decomposing_Motion_CVPR_2018_paper.html) | [Code](https://github.com/sergeytulyakov/mocogan)]  
 - **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]  
 - Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.html) | [Code](https://github.com/svip-lab/impersonator)]
 - **MonkeyNet**: Animating Arbitrary Objects via Deep Motion Transfer, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Siarohin_Animating_Arbitrary_Objects_via_Deep_Motion_Transfer_CVPR_2019_paper.html) | [Github](https://github.com/AliaksandrSiarohin/monkey-net)]  
@@ -132,6 +135,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
 - Stochastic Image-to-Video Synthesis using cINNs, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Dorkenwald_Stochastic_Image-to-Video_Synthesis_Using_cINNs_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/image2video-synthesis-using-cINNs)]  
 - Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modling, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_Few-Shot_Human_Motion_Transfer_by_Personalized_Geometry_and_Texture_Modeling_CVPR_2021_paper.html) | [Code](https://github.com/HuangZhiChao95/FewShotMotionTransfer)]  
+
 #### Fashion
 - Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
 - FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html)]
@@ -144,6 +148,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Deep Learning
 - **AlexNet**: ImageNet classification with deep convolutional neural networks, NeurIPS2011 [[Paper](https://dl.acm.org/doi/abs/10.1145/3065386)]  
+- **Adam**: ADAM: A Method for Stochastic Optimization, arXiv2014 [[Paper](https://arxiv.org/abs/1412.6980)]
 - Spatial Transformer Networks, NeurIPS2015, [[Paper](https://arxiv.org/abs/1506.02025) | [Gitub](https://github.com/tensorpack/tensorpack/tree/master/examples/SpatialTransformer)]
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
 - **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
@@ -180,7 +185,12 @@ It's the repository for collecting papers that I read and category them accordin
 - Deep learning face attributes in the wild, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Liu_Deep_Learning_Face_ICCV_2015_paper.html)]
 
 ## Surveillance
+- 범죄 취약 계층 안전을 위한 CCTV 기반 성별 구분, IPIU2016
 - Video Based Child and Adult Classification using Convolutional Neural Network, IPIU2016
+- 다수 사람 추적상태에 따른 감시영상 요약 시스템, KUSE Transactions on Computing Practices 2016 [[Paper](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06599140)]
+
+## Visual Planning
+- Self-Supervised Visual Planning with Temporal Skip Connections, CoRL2017 [[Paper](https://proceedings.mlr.press/v78/frederik%20ebert17a/frederik%20ebert17a.pdf)]
 
 ## Face
 - Are You Really Smiling at Me? Spontaneous versus Posed Enjoyment Smiles, ECCV2012 [[Paper](https://link.springer.com/chapter/10.1007/978-3-642-33712-3_38)]  
@@ -226,7 +236,6 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - A threshold selection method from gray-level histograms, SMC1979 [[Paper](https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bio/otsu.pdf)]  
 - Dynamic histogram warping of image pairs for constant image brightness, ICIP1995 [[Paper](https://ieeexplore.ieee.org/abstract/document/537491)]  
 - Just Noticeable Defocus Blur Detection and Estimation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Shi_Just_Noticeable_Defocus_2015_CVPR_paper.html)]  
-
 ## Depth Camera
 - Time-of-flight sensors in computer graphics, CGF2010, [[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01583.x)]  
 
