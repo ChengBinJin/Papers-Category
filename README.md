@@ -33,6 +33,8 @@ It's the repository for collecting papers that I read and category them accordin
 - [Surveillance](#surveillance)
 - [Visual Planning](#visual-planning)
 - [Face](#face)
+- [Pose](#pose)
+- [Hands](#hands)
 - [Fingerprint](#fingerprint)
 - [Gaze](#gaze)
 - [Iris](#iris)
@@ -84,6 +86,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Config: controllable neural face image generation, ECCV2020 [[Paper](https://arxiv.org/abs/2005.02671) | [Github](https://github.com/microsoft/ConfigNet)]
 - **InterFaceGAN**: Interpreting the latent space of GANs for semantic face editing, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Shen_Interpreting_the_Latent_Space_of_GANs_for_Semantic_Face_Editing_CVPR_2020_paper.html) | [Github](https://github.com/genforce/interfacegan)]  
 - **InterFaceGAN++**: InterFaceGAN: interpreting the disentangled face representation learend by GANs, PAMI2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9241434) | [Github](https://github.com/genforce/interfacegan)]
+- **StyleSpace**: StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wu_StyleSpace_Analysis_Disentangled_Controls_for_StyleGAN_Image_Generation_CVPR_2021_paper.html) | [Code](https://github.com/betterze/StyleSpace)]  
 #### Unsupervised Interpretable GAN Control  
 - Spatially Controllable Image Synthesis with Internal Representation Collaging, arXiv2018 [[Paper](https://arxiv.org/abs/1811.10153) | [Github](https://github.com/quolc/neural-collage)]  
 - **GANSpace**: GANSpace: discovering interpretable GAN controls, arXiv2020 [[Paper](https://arxiv.org/abs/2004.02546) | [Github](https://github.com/harskish/ganspace)]  
@@ -200,6 +203,15 @@ It's the repository for collecting papers that I read and category them accordin
 - Unsupervised Learning of Object Landmarks through Conditional Image Generation, NeurIPS2018 [[Paper](https://arxiv.org/abs/1806.07823) | [Code](https://github.com/tomasjakab/imm)]  
 - Laplace Landmark Localization, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Robinson_Laplace_Landmark_Localization_ICCV_2019_paper.html)]
 - **Arcface**: Arcface: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
+
+## Pose
+- Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?, arXiv2021 [[Paper](https://arxiv.org/abs/2107.03332) | [Code](https://github.com/leeyegy/SimDR)]  
+- Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
+- **HRNet**: Deep High-Resoluiton Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
+
+
+## Hands
+- MediaPipe Hands: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214)]  
 
 ##  Fingerprint
 - Segmentation of fingerprint images using the directional image, PR1987 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/0031320387900690)]
