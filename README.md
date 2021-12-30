@@ -8,7 +8,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Loss](#loss)
   - [Compression](#compression)
   - [VAE](#vae)
-  - [Layer Swapping](#layer-swapping)
+  - [Toonify](#toonify)
   - [Supervised Image-to-Image Translation](#supervised-image-to-image-translation)
   - [Unsupervised Image-to-Image Translation](#unsupervised-image-to-image-translation)
   - [Diverse Image-to-Image Translation](#diverse-image-to-image-translation)
@@ -39,6 +39,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Gaze](#gaze)
 - [Iris](#iris)
 - [Detection](#detection)
+- [Segmentation](#segmentation)
 - [Adversarial Attack](#adversarial-attack)
 - [Traditional Machine Learning](#traditional-machine-learning)
 - [Image Processing](#image-processing)
@@ -62,9 +63,10 @@ It's the repository for collecting papers that I read and category them accordin
 - GAN compression: efficient architectures for interactive conditional GANs, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Li_GAN_Compression_Efficient_Architectures_for_Interactive_Conditional_GANs_CVPR_2020_paper.html) | [Github](https://github.com/mit-han-lab/gan-compression)]
 #### VAE
 - Autoencoding beyond pixels using a learned similarity metric, ICML2016, [[Paper](http://proceedings.mlr.press/v48/larsen16.html) | [Github](https://github.com/andersbll/autoencoding_beyond_pixels)]  
-#### Layer Swapping  
+#### Toonify 
 - Resolution dependent GAN interpolation for controllable image synthesis between domains, arXiv2020 [[Paper](https://arxiv.org/abs/2010.05334) | [Github](https://github.com/justinpinkney/stylegan2)]  
 - Unsupervised image-to-image translation via pre-trained StyleGAN2 Network, arXiv2020 [[Paper](Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network) | [Github](https://github.com/HideUnderBush/UI2I_via_StyleGAN2)]  
+- **AgileGAN**: AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning, SIGGRAPH Asia 2021 [[Paper](https://dl.acm.org/doi/abs/10.1145/3450626.3459771?casa_token=105uPjzfGO0AAAAA:NHUC0lz5lu_bCsR1qHIV1NvAUQ5lY9QHmOapWvPJ99ukteduDA25l6aGDPDb1pbzLvVad01Z1St9TNs) | [Code](https://github.com/open-mmlab/MMGEN-FaceStylor)]  
 #### Supervised Image-to-Image Translation  
 - **pix2pixHD**: High-resolution image synthesis and semantic manipulation with conditional GANs, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_High-Resolution_Image_Synthesis_CVPR_2018_paper.html) | [Github](https://github.com/NVIDIA/pix2pixHD)]  
 - **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
@@ -161,7 +163,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Medical
 - Virtual PET Images from CT Data using Deep Convolutional Networks: Initial Results, SASHMI2017 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-68127-6_6)]  
-- Generative Adversarial Network in Medical Imaging: A Review, Medical Image Analysis 2019, [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841518308430)]    
+- Generative Adversarial Network in Medical Imaging: A Review, Medical Image Analysis 2019, [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841518308430)]   
 
 ## Image Measurement
 - **LPIPS**: The unreasonable effectiveness of deep features as a perceptual metric, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html) | [Github](https://github.com/richzhang/PerceptualSimilarity)]
@@ -209,9 +211,10 @@ It's the repository for collecting papers that I read and category them accordin
 - Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
 - **HRNet**: Deep High-Resoluiton Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
 
-
 ## Hands
 - MediaPipe Hands: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214) | [Code](https://google.github.io/mediapipe/solutions/hands.html)]  
+- MEgATrack: Monochrome Egocentric Articulated Hand Tracking for Virtual Reality, TOG2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3386569.3392452) | [Code](https://github.com/milkcat0904/MegaTrack-pytorch)]  
+- Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)]  
 
 ##  Fingerprint
 - Segmentation of fingerprint images using the directional image, PR1987 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/0031320387900690)]
@@ -235,7 +238,11 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - Hybrid cascade boosting machine using variant scale blocks based HOG feature for pedestrain detection, Neurocomputing2014 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231214000277)]  
 - 다양한 사람 방향을 고려한 파트 영역 기반 사람 영역 검출, JKIISE2013 [[Paper](http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE02217486)]  
 - **R-CNN**: Rich feature hierarchies for accurate object detection and semantic segmentation, CVPR2014 [[Paper](https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)]  
-- Feature pyramid networks for object detection, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.html) | [Github](https://github.com/facebookresearch/detectron)]
+- Feature pyramid networks for object detection, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.html) | [Github](https://github.com/facebookresearch/detectron)]  
+- Bounding Box Regression with Uncertainty for Accurate Object Detection, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.html) | [Code](https://github.com/yihui-he/KL-Loss)]  
+
+## Segmentation
+- **FCN**: Fully Convolutional Networks for Semantic Segmentation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) | [Code](https://github.com/shelhamer/fcn.berkeleyvision.org)]  
 
 ## Adversarial Attack  
 - Intriguing properties of neural networks, arXiv2013 [[Paper](https://arxiv.org/abs/1312.6199)]
