@@ -126,6 +126,8 @@ It's the repository for collecting papers that I read and category them accordin
 - DeFLOCNet: Deep Image Editing via Flexible Low-level Control, CVPR2021 [[Paper](https://arxiv.org/abs/2103.12723) | [Github](https://github.com/KumapowerLIU/DeFLOCNet)]  
 
 #### Image Animation
+- Generating Videos with Scene Dynamics, NIPS2016 [[Paper](https://proceedings.neurips.cc/paper/2016/hash/04025959b191f8f9de3f924f0940515f-Abstract.html) | [Code](https://github.com/GV1028/videogan)]  
+- **X2Face**: X2Face: A Network for Controlling Face Generation using Images, Audio, and Pose Codes, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.html) | [Code](https://github.com/oawiles/X2Face)]  
 - **GANimation**: GANimation: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)] 
 - **Recycle-GAN**: Recycle-GAN: Unsupervised Video Retargeting, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Aayush_Bansal_Recycle-GAN_Unsupervised_Video_ECCV_2018_paper.html) | [Code](https://github.com/aayushbansal/Recycle-GAN)]  
 - Synthesizing Images of Humans in Unseen Poses, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.html) | [Code](https://github.com/balakg/posewarp-cvpr2018)]
@@ -154,7 +156,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Deep Learning
 - **AlexNet**: ImageNet classification with deep convolutional neural networks, NeurIPS2011 [[Paper](https://dl.acm.org/doi/abs/10.1145/3065386)]  
-- **Adam**: ADAM: A Method for Stochastic Optimization, arXiv2014 [[Paper](https://arxiv.org/abs/1412.6980)]
+- **Adam**: ADAM: A Method for Stochastic Optimization, arXiv2014 [[Paper](https://arxiv.org/abs/1412.6980)]  
 - Spatial Transformer Networks, NeurIPS2015, [[Paper](https://arxiv.org/abs/1506.02025) | [Gitub](https://github.com/tensorpack/tensorpack/tree/master/examples/SpatialTransformer)]
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
 - **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
@@ -192,6 +194,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Deep learning face attributes in the wild, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Liu_Deep_Learning_Face_ICCV_2015_paper.html)]
 
 ## Surveillance
+- A Simplified Nonlinear Regression Method for Human Height Estimation in Video Surveillance, EURASIP Journal on Image and Video Processing 2015 [[Paper](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-015-0086-1)]  
 - 범죄 취약 계층 안전을 위한 CCTV 기반 성별 구분, IPIU2016
 - Video Based Child and Adult Classification using Convolutional Neural Network, IPIU2016
 - 다수 사람 추적상태에 따른 감시영상 요약 시스템, KUSE Transactions on Computing Practices 2016 [[Paper](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06599140)]
@@ -209,6 +212,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **Arcface**: Arcface: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
 
 ## Pose
+- **OpenPose**: Realtim Multi-Person 2D Pose Estimation using Part Affinity Fields, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.html) | [Code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]  
 - Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?, arXiv2021 [[Paper](https://arxiv.org/abs/2107.03332) | [Code](https://github.com/leeyegy/SimDR)]  
 - Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
 - **HRNet**: Deep High-Resoluiton Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
@@ -247,6 +251,7 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - Bounding Box Regression with Uncertainty for Accurate Object Detection, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.html) | [Code](https://github.com/yihui-he/KL-Loss)]  
 
 ## Segmentation
+- **UNet**: U-Net: Convolutional Networks for Biomedical Image Segmentation, MICCAI2015 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) | [Code](https://github.com/ChengBinJin/U-Net-TensorFlow)]  
 - **FCN**: Fully Convolutional Networks for Semantic Segmentation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) | [Code](https://github.com/shelhamer/fcn.berkeleyvision.org)]  
 
 ## Depth Estimation
