@@ -48,6 +48,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Image Processing](#image-processing)
 - [Depth Camera](#depth-camera)
 - [Stereo](#stereo)
+- [Robotics](#robotics)
 
 ## GANS
 #### Training Technique  
@@ -156,13 +157,16 @@ It's the repository for collecting papers that I read and category them accordin
 - Taming Transformers for High-Resolution Image Synthesis, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/taming-transformers)]  
 
 ## Style Transfer
+- A Neural Algorithm of Artistic Style, arXiv2014 [[Paper](https://arxiv.org/abs/1508.06576) | [Code](https://github.com/jcjohnson/neural-style)]  
 - Image style transfer using convolutional neural networks, CVPR2016 [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html) | [Github](https://github.com/cysmith/neural-style-tf)]
 - **AdaIN**: Arbitrary style transfer in real-time with adaptive instance normalization, ICCV2017 [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Huang_Arbitrary_Style_Transfer_ICCV_2017_paper.html) | [Github](https://github.com/xunhuang1995/AdaIN-style)]
 
 ## Deep Learning
 - **AlexNet**: ImageNet classification with deep convolutional neural networks, NeurIPS2011 [[Paper](https://dl.acm.org/doi/abs/10.1145/3065386)]  
 - **Adam**: ADAM: A Method for Stochastic Optimization, arXiv2014 [[Paper](https://arxiv.org/abs/1412.6980)]  
-- Spatial Transformer Networks, NeurIPS2015, [[Paper](https://arxiv.org/abs/1506.02025) | [Gitub](https://github.com/tensorpack/tensorpack/tree/master/examples/SpatialTransformer)]
+- Spatial Transformer Networks, NeurIPS2015, [[Paper](https://arxiv.org/abs/1506.02025) | [Gitub](https://github.com/tensorpack/tensorpack/tree/master/examples/SpatialTransformer)]  
+- Learning from Massive Noisy Labeled Data for Image Classification, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Xiao_Learning_From_Massive_2015_CVPR_paper.html)]  
+- From Generic to Specific Deep Representations for Visual Recognition, CVPR2015 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W03/html/Azizpour_From_Generic_to_2015_CVPR_paper.html)]  
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
 - **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
 - **MobileNetv1**: MobileNets: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
@@ -173,6 +177,7 @@ It's the repository for collecting papers that I read and category them accordin
 ## Medical
 - Virtual PET Images from CT Data using Deep Convolutional Networks: Initial Results, SASHMI2017 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-68127-6_6)]  
 - Whole Brain Segmentation and Labeling from CT using Synthetic MR Images, MLMI2017 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-67389-9_34)]  
+- nnU-Net: Breaking the Spell on Successful Medial Image Segmentation, arXiv2019 [[Paper](http://rumc-gcorg-p-public.s3.amazonaws.com/evaluation-supplementary/599/351f2fd9-01b3-40e0-802c-2929ba10abd3/nnUnet.pdf)]  
 - Generative Adversarial Network in Medical Imaging: A Review, Medical Image Analysis 2019, [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841518308430)]   
 
 ## Image Measurement
@@ -195,6 +200,12 @@ It's the repository for collecting papers that I read and category them accordin
 - Beyond Gaussian Pyramid Multi-skip Feature Stacking for Action Recognition, CVPR2015 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Lan_Beyond_Gaussian_Pyramid_2015_CVPR_paper.html)]  
 - Delving into Egocentric Actions, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Li_Delving_Into_Egocentric_2015_CVPR_paper.html)]  
 - Finding Action Tubes, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Gkioxari_Finding_Action_Tubes_2015_CVPR_paper.html) | [Code](https://github.com/gkioxari/ActionTubes#instructions)]  
+- Can Humans Fly? Action Understanding with Multiple Classes of Actors, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Xu_Can_Humans_Fly_2015_CVPR_paper.html)]  
+- Human Action Recognition using Histogram of Motion Intensity and Direction from Multiple Views, IETCV2016 [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cvi.2015.0233)]  
+- Two-layer Discriminative Model for Human Activity Recognition, IETCV2016 [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cvi.2015.0235)]  
+- A Multi-Stream Bi-Directional Recurrent Neural Network for Fine-Grained Action Detection, CVPR2016 [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Singh_A_Multi-Stream_Bi-Directional_CVPR_2016_paper.html)]  
+- Progressively Parsing Interactional Objects for Fine Grained Action Detection, CVPR2016 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ni_Progressively_Parsing_Interactional_CVPR_2016_paper.html) | [Code]()]  
+- End-to-End Learning of Action Detection from Frame Glimpses in Videos, CVPR2016 [[Code](https://openaccess.thecvf.com/content_cvpr_2016/html/Yeung_End-To-End_Learning_of_CVPR_2016_paper.html)]  
 
 ## Attribute Prediction
 - Deep learning face attributes in the wild, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Liu_Deep_Learning_Face_ICCV_2015_paper.html)]
@@ -215,7 +226,8 @@ It's the repository for collecting papers that I read and category them accordin
 - Unsupervised Discovery of Object Landmarks as Structural Representations, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Unsupervised_Discovery_of_CVPR_2018_paper.html) | [Code](https://github.com/YutingZhang/lmdis-rep)]  
 - Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Feng_Wing_Loss_for_CVPR_2018_paper.html)]  
 - Unsupervised Learning of Object Landmarks through Conditional Image Generation, NeurIPS2018 [[Paper](https://arxiv.org/abs/1806.07823) | [Code](https://github.com/tomasjakab/imm)]  
-- Laplace Landmark Localization, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Robinson_Laplace_Landmark_Localization_ICCV_2019_paper.html)]
+- Laplace Landmark Localization, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Robinson_Laplace_Landmark_Localization_ICCV_2019_paper.html)]  
+- Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Adaptive_Wing_Loss_for_Robust_Face_Alignment_via_Heatmap_Regression_ICCV_2019_paper.pdf) | [Code](https://github.com/protossw512/AdaptiveWingLoss)]  
 - **Arcface**: Arcface: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
 
 ## HumanPose
@@ -231,7 +243,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## HandsPose
 - MediaPipe Hands: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214) | [Code](https://google.github.io/mediapipe/solutions/hands.html)]  
-- - InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_33) | [Code](https://github.com/facebookresearch/InterHand2.6M)]  
+- InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_33) | [Code](https://github.com/facebookresearch/InterHand2.6M)]  
 - End-to-End Detection and Pose Estimation of Two Interacting Hands, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_End-to-End_Detection_and_Pose_Estimation_of_Two_Interacting_Hands_ICCV_2021_paper.html)]  
 
 ## HandsMesh
@@ -252,6 +264,7 @@ It's the repository for collecting papers that I read and category them accordin
 Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_20) | [Code](https://github.com/BlueWinters/DeepWarp)]
 
 ## Iris
+- Synthesis of Large Realistic Iris Databases using Patch-based Sampling, ICPR2008, [[Paper](https://ieeexplore.ieee.org/abstract/document/4761674)]    
 - Iris-GAN: Learning to Generate Realistic Iris Images Using Convolutional GAN, arXiv2018 [[Paper](https://arxiv.org/abs/1812.04822)]  
 - Robust iris segmentation via simple circular and linear filter, JEI2008, [[Paper](https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-17/issue-4/043027/Robust-iris-segmentation-via-simple-circular-and-linear-filters/10.1117/1.3050067.short?SSO=1)]  
 - A new texture analysis appraoch for iris recognition, CCSP2014, [[Paper](https://www.sciencedirect.com/science/article/pii/S2212671614001024)]  
@@ -261,8 +274,10 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - **HOG**: Histograms of oriented gradients for human detection, CVPR2005 [[Paper](https://ieeexplore.ieee.org/abstract/document/1467360)]  
 - Human detection using oriented histograms of oriented gradients, ECCV2006 [[Paper](https://link.springer.com/chapter/10.1007/11744047_33)]  
 - Hybrid cascade boosting machine using variant scale blocks based HOG feature for pedestrain detection, Neurocomputing2014 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231214000277)]  
+- Recognition using Visual Phrases, CVPR2011 [[Paper](https://ieeexplore.ieee.org/abstract/document/5995711)]  
 - 다양한 사람 방향을 고려한 파트 영역 기반 사람 영역 검출, JKIISE2013 [[Paper](http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE02217486)]  
 - **R-CNN**: Rich feature hierarchies for accurate object detection and semantic segmentation, CVPR2014 [[Paper](https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)]  
+- End-to-End People Detection in Crowded Scenes, CVPR2016 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Stewart_End-To-End_People_Detection_CVPR_2016_paper.html)]  
 - Feature pyramid networks for object detection, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.html) | [Github](https://github.com/facebookresearch/detectron)]  
 - Bounding Box Regression with Uncertainty for Accurate Object Detection, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.html) | [Code](https://github.com/yihui-he/KL-Loss)]  
 
@@ -285,6 +300,7 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - A threshold selection method from gray-level histograms, SMC1979 [[Paper](https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bio/otsu.pdf)]  
 - Dynamic histogram warping of image pairs for constant image brightness, ICIP1995 [[Paper](https://ieeexplore.ieee.org/abstract/document/537491)]  
 - Just Noticeable Defocus Blur Detection and Estimation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Shi_Just_Noticeable_Defocus_2015_CVPR_paper.html)]  
+
 ## Depth Camera
 - Time-of-flight sensors in computer graphics, CGF2010, [[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01583.x)]  
 
@@ -294,3 +310,6 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - Efficient Stereo Matching for Belief Propagation using Plane Convergence, IPIU2010  
 - Fast Stereo Matching based on Plane-Converging Belief Propagation using GPU, The Institute of Electronics Engineers of Korea SP 2011, [[Paper](https://www.koreascience.or.kr/article/JAKO201112961963891.page)]  
 - Displets-resolving stereo ambiguities using object knowledge, CVPR2015, [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Guney_Displets_Resolving_Stereo_2015_CVPR_paper.html) | [Github](https://github.com/edz-o/displet)]  
+
+## Robotics
+- Continuous-Curvature Paths for Autonomous Vehicles, ICRA1989 [[Paper](https://ieeexplore.ieee.org/abstract/document/100153)]  
