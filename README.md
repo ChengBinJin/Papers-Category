@@ -253,8 +253,10 @@ It's the repository for collecting papers that I read and category them accordin
 ### Hands Mesh
 - **MobileHand**: MobileHand: Real-Time 3D Hand Shape and Pose Estimation from Color Image, ICNIP2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-63820-7_52) | [Code](https://github.com/gmntu/mobilehand)]  
 - **MEgATrack**: MEgATrack: Monochrome Egocentric Articulated Hand Tracking for Virtual Reality, TOG2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3386569.3392452) | [Code](https://github.com/milkcat0904/MegaTrack-pytorch)]  
+- **Minimal-Hand**: Monocular Real-time Hand Shape and Motion Capture using Multi-modal Data, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Monocular_Real-Time_Hand_Shape_and_Motion_Capture_Using_Multi-Modal_Data_CVPR_2020_paper.html) | [Code](https://github.com/CalciferZh/minimal-hand)]  
 - **Youtube3d**: Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)]  
 - Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Tang_Towards_Accurate_Alignment_in_Real-Time_3D_Hand-Mesh_Reconstruction_ICCV_2021_paper.html) | [Code](https://github.com/wbstx/handAR)]  
+- MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
 
 ##  Fingerprint
 - Segmentation of fingerprint images using the directional image, PR1987 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/0031320387900690)]
@@ -291,7 +293,10 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 
 ## Depth Estimation
 - Make3d: Depth Perception from a Single Still Image, AAAI2008 [[Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.aaai.org%2FPapers%2FAAAI%2F2008%2FAAAI08-265.pdf&clen=1745360&chunk=true)]  
+- Depth Map Prediction from a Single Image using a Multi-scale Deep Network, NeurIPS2014 [[Paper](https://proceedings.neurips.cc/paper/2014/hash/7bccfde7714a1ebadf06c5f4cea752c1-Abstract.html) | [Code](https://github.com/hjimce/Depth-Map-Prediction)]  
+- Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-scale Convolutional Architecture, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Eigen_Predicting_Depth_Surface_ICCV_2015_paper.html)]  
 - Towards Unified Depth and Semantic Prediction from a Single Image, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Wang_Towards_Unified_Depth_2015_CVPR_paper.html)]  
+- Coupled Depth Learning, WCACV2016 [[Paper](https://ieeexplore.ieee.org/abstract/document/7477699)]  
 
 ## Adversarial Attack  
 - Intriguing properties of neural networks, arXiv2013 [[Paper](https://arxiv.org/abs/1312.6199)]
