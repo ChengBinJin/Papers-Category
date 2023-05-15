@@ -1,7 +1,7 @@
 # Papers-Category
 It's the repository for collecting papers that I read and category them according to the different objectives.
 
-- [Stable Diffusion](#stalbe-diffusion)
+- [Stable Diffusion](#stable-diffusion)
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Training with Limited Data](#training-with-limited-data)
@@ -55,7 +55,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Robotics](#robotics)
 
 ## Stable Diffusion
-**LSD**: High-Resolution Image Synthesis with Latent Diffusion Models, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | [Code](https://github.com/CompVis/latent-diffusion)]  
+- **LSD**: High-Resolution Image Synthesis with Latent Diffusion Models, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | [Code](https://github.com/CompVis/latent-diffusion)]  
 
 ## GANS
 #### Training Technique  
@@ -160,8 +160,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **StylePeople**: A Generative Model of Fullbody Human Avatars, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Grigorev_StylePeople_A_Generative_Model_of_Fullbody_Human_Avatars_CVPR_2021_paper.html) | [Code](https://github.com/Dolorousrtur/style-people)]  
 
 #### Audio Driven Image Animation
-**SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talkign Face Animation, CVPR2023 [[Paper](https://arxiv.org/abs/2211.12194) | [Code](https://github.com/OpenTalker/SadTalker)]  
-**VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]  
+- **SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talkign Face Animation, CVPR2023 [[Paper](https://arxiv.org/abs/2211.12194) | [Code](https://github.com/OpenTalker/SadTalker)]  
+- **VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]  
 
 #### Fashion
 - Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
