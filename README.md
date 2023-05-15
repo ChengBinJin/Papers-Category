@@ -86,6 +86,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **SPADE**: Semantic image synthesis with spatially adaptive normalization, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.html) | [Github](https://github.com/NVlabs/SPADE)]  
 - **SEAN**: SEAN: image synthesis with semantic region-adaptive normalization, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_SEAN_Image_Synthesis_With_Semantic_Region-Adaptive_Normalization_CVPR_2020_paper.html) | [Github](https://github.com/ZPdesu/SEAN)]  
 - **StarGANv2**: StarGAN v2: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]    
+- **AniGAN**: AniGAN: Style-Guided Generative Adversarial Networks for Unsupervised Anime Face Generation, Multimedia2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9541089/) | [Code](https://github.com/bing-li-ai/AniGAN)]  
 - **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]  
 - **OASIS**: You Only Need Adversarial Supervision for Semantic Image Synthesis, ICLR2021 [[Paper](https://arxiv.org/abs/2012.04781) | [Github](https://github.com/boschresearch/OASIS)]
 #### Supervised Interpretable GAN Control  
@@ -173,6 +174,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
 - **MobileNetv1**: MobileNets: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
 - **ShuffleNet**: ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.html) | [Code](https://github.com/megvii-model/ShuffleNet-Series)]  
+- **ShuffleNetv2**: ShuffleNet V2: Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]  
 - **MobileNetv2**: MobileNetV2: inverted residuals and linear bottlenecks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html) | [Github](https://github.com/d-li14/mobilenetv2.pytorch)]  
 - **MobileNetv3**: Searching for MobileNetV3, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) | [Github](https://github.com/leaderj1001/MobileNetV3-Pytorch)]  
 
@@ -238,6 +240,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?, arXiv2021 [[Paper](https://arxiv.org/abs/2107.03332) | [Code](https://github.com/leeyegy/SimDR)]  
 - Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
 - **HRNet**: Deep High-Resoluiton Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
+- **BlazePose**: BlazePose: On-device Real-time Body Pose Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10204)]  
 - **Lite-HRNet**: Lite-HRNet: A Lightweight High-Resolution Network, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Lite-HRNet_A_Lightweight_High-Resolution_Network_CVPR_2021_paper.html) | [Code](https://github.com/HRNet/Lite-HRNet)]  
 
 ### Human Mesh
@@ -248,6 +251,7 @@ It's the repository for collecting papers that I read and category them accordin
 ### Hands Pose
 - MediaPipe Hands: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214) | [Code](https://google.github.io/mediapipe/solutions/hands.html)]  
 - InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_33) | [Code](https://github.com/facebookresearch/InterHand2.6M)]  
+- On-device Real-time Hand Gesture Recognition, arXiv2021 [[Paper](https://arxiv.org/abs/2111.00038)]  
 - End-to-End Detection and Pose Estimation of Two Interacting Hands, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_End-to-End_Detection_and_Pose_Estimation_of_Two_Interacting_Hands_ICCV_2021_paper.html)]  
 
 ### Hands Mesh
@@ -295,6 +299,7 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - Make3d: Depth Perception from a Single Still Image, AAAI2008 [[Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.aaai.org%2FPapers%2FAAAI%2F2008%2FAAAI08-265.pdf&clen=1745360&chunk=true)]  
 - Depth Map Prediction from a Single Image using a Multi-scale Deep Network, NeurIPS2014 [[Paper](https://proceedings.neurips.cc/paper/2014/hash/7bccfde7714a1ebadf06c5f4cea752c1-Abstract.html) | [Code](https://github.com/hjimce/Depth-Map-Prediction)]  
 - Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-scale Convolutional Architecture, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Eigen_Predicting_Depth_Surface_ICCV_2015_paper.html)]  
+- Deep Convolutional Neural Fields for Depth Estimation from a Single Image, CVPR2015 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Liu_Deep_Convolutional_Neural_2015_CVPR_paper.html)]  
 - Towards Unified Depth and Semantic Prediction from a Single Image, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Wang_Towards_Unified_Depth_2015_CVPR_paper.html)]  
 - Coupled Depth Learning, WCACV2016 [[Paper](https://ieeexplore.ieee.org/abstract/document/7477699)]  
 
