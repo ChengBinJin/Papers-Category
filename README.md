@@ -1,6 +1,7 @@
 # Papers-Category
 It's the repository for collecting papers that I read and category them according to the different objectives.
 
+- [Stable Diffusion](#stalbe-diffusion)
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Training with Limited Data](#training-with-limited-data)
@@ -21,7 +22,8 @@ It's the repository for collecting papers that I read and category them accordin
   - [Face Change](#face-change)  
   - [Face Restoration](#face-restoration)
   - [Inpainting](#Inpainting)
-  - [Image Animation](#image-animation)
+  - [Visual Driven Image Animation](#visual-driven-image-animation)
+  - [Audio Driven Image Animation](#audio-driven-image-animation)
   - [Fashion](#fashion)
   - [Transformer](#transformer)
 - [Style Transfer](#style-transfer)
@@ -52,10 +54,13 @@ It's the repository for collecting papers that I read and category them accordin
 - [Stereo](#stereo)
 - [Robotics](#robotics)
 
+## Stable Diffusion
+**LSD**: High-Resolution Image Synthesis with Latent Diffusion Models, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | [Code](https://github.com/CompVis/latent-diffusion)]  
+
 ## GANS
 #### Training Technique  
 - Improved techniques for training GANs, NeurIPS2014 [[Paper](http://papers.nips.cc/paper/6124-improved-techniques-for-training-gans) | [Github](https://github.com/openai/improved-gan)]  
-- **InfoGAN**: InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, NeurIPS2016 [[Paper](https://arxiv.org/abs/1606.03657) | [Github](https://github.com/eriklindernoren/PyTorch-GAN#infogan)]  
+- **InfoGAN**: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, NeurIPS2016 [[Paper](https://arxiv.org/abs/1606.03657) | [Github](https://github.com/eriklindernoren/PyTorch-GAN#infogan)]  
 #### Training with Limited Data
 - **Freeze-D**: Freeze the Discriminator: A Simple Baseline forFine-Tuning GANs, arXiv2020 [[Paper](https://arxiv.org/abs/2002.10964) | [Github](https://github.com/sangwoomo/FreezeD)]  
 - **StyleGAN2-ADA**: Training Generative Adversarial Networks with Limited Data, arXiv2020 [[Paper](https://arxiv.org/abs/2006.06676) | [Github](https://github.com/NVlabs/stylegan2-ada)]  
@@ -72,33 +77,33 @@ It's the repository for collecting papers that I read and category them accordin
 #### Toonify 
 - Resolution dependent GAN interpolation for controllable image synthesis between domains, arXiv2020 [[Paper](https://arxiv.org/abs/2010.05334) | [Github](https://github.com/justinpinkney/stylegan2)]  
 - Unsupervised image-to-image translation via pre-trained StyleGAN2 Network, arXiv2020 [[Paper](Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network) | [Github](https://github.com/HideUnderBush/UI2I_via_StyleGAN2)]  
-- **AgileGAN**: AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning, SIGGRAPH Asia 2021 [[Paper](https://dl.acm.org/doi/abs/10.1145/3450626.3459771?casa_token=105uPjzfGO0AAAAA:NHUC0lz5lu_bCsR1qHIV1NvAUQ5lY9QHmOapWvPJ99ukteduDA25l6aGDPDb1pbzLvVad01Z1St9TNs) | [Code](https://github.com/open-mmlab/MMGEN-FaceStylor)]  
+- **AgileGAN**: Stylizing Portraits by Inversion-Consistent Transfer Learning, SIGGRAPH Asia 2021 [[Paper](https://dl.acm.org/doi/abs/10.1145/3450626.3459771?casa_token=105uPjzfGO0AAAAA:NHUC0lz5lu_bCsR1qHIV1NvAUQ5lY9QHmOapWvPJ99ukteduDA25l6aGDPDb1pbzLvVad01Z1St9TNs) | [Code](https://github.com/open-mmlab/MMGEN-FaceStylor)]  
 #### Supervised Image-to-Image Translation  
 - **pix2pixHD**: High-resolution image synthesis and semantic manipulation with conditional GANs, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_High-Resolution_Image_Synthesis_CVPR_2018_paper.html) | [Github](https://github.com/NVIDIA/pix2pixHD)]  
 - **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]
 #### Unsupervised Image-to-Image Translation  
-- **StarGANv1**: StarGAN: unified generative adversarial networks for multi-domain image-to-image translation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.html) | [Github](https://github.com/yunjey/stargan)]  
+- **StarGAN**: unified generative adversarial networks for multi-domain image-to-image translation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.html) | [Github](https://github.com/yunjey/stargan)]  
 - The Surprising Effectiveness of Linear Unsupervised Image-to-Image Translation, arXiv2020 [[Paper](https://arxiv.org/abs/2007.12568) | [Github](https://github.com/eitanrich/lin-im2im)]  
-- **U-GAT-IT**: U-GAT-IT: unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation, ICLR2020 [[Paper](https://arxiv.org/abs/1907.10830) | [Github](https://github.com/znxlwm/UGATIT-pytorch)]  
+- **U-GAT-IT**: unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation, ICLR2020 [[Paper](https://arxiv.org/abs/1907.10830) | [Github](https://github.com/znxlwm/UGATIT-pytorch)]  
 - Breaking the cycle - colleagues are all you need, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Nizan_Breaking_the_Cycle_-_Colleagues_Are_All_You_Need_CVPR_2020_paper.html) | [Github](https://github.com/Onr/Council-GAN)]
 #### Diverse Image-to-Image Translation  
 - **BicycleGAN**: Toward Multimodal Image-to-Image Translation, NeurIPS2017 [[Paper](https://arxiv.org/abs/1711.11586) | [Github](https://github.com/junyanz/BicycleGAN)]  
 - **SPADE**: Semantic image synthesis with spatially adaptive normalization, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.html) | [Github](https://github.com/NVlabs/SPADE)]  
-- **SEAN**: SEAN: image synthesis with semantic region-adaptive normalization, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_SEAN_Image_Synthesis_With_Semantic_Region-Adaptive_Normalization_CVPR_2020_paper.html) | [Github](https://github.com/ZPdesu/SEAN)]  
-- **StarGANv2**: StarGAN v2: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]    
-- **AniGAN**: AniGAN: Style-Guided Generative Adversarial Networks for Unsupervised Anime Face Generation, Multimedia2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9541089/) | [Code](https://github.com/bing-li-ai/AniGAN)]  
+- **SEAN**: image synthesis with semantic region-adaptive normalization, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_SEAN_Image_Synthesis_With_Semantic_Region-Adaptive_Normalization_CVPR_2020_paper.html) | [Github](https://github.com/ZPdesu/SEAN)]  
+- **StarGANv2**: diverse image synthesis for multiple domains, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_StarGAN_v2_Diverse_Image_Synthesis_for_Multiple_Domains_CVPR_2020_paper.html) | [Github](https://github.com/clovaai/stargan-v2)]    
+- **AniGAN**: Style-Guided Generative Adversarial Networks for Unsupervised Anime Face Generation, Multimedia2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9541089/) | [Code](https://github.com/bing-li-ai/AniGAN)]  
 - **pSp**: Encoding in StyleGAN: a StyleGAN encoder for image-to-image translation, ICLR2021 [[Paper](https://arxiv.org/abs/2008.00951) | [Github](https://github.com/eladrich/pixel2style2pixel)]  
 - **OASIS**: You Only Need Adversarial Supervision for Semantic Image Synthesis, ICLR2021 [[Paper](https://arxiv.org/abs/2012.04781) | [Github](https://github.com/boschresearch/OASIS)]
 #### Supervised Interpretable GAN Control  
 - StyleGAN2 distillation of feed-forward image manipulation, arXvi2020 [[Paper](https://arxiv.org/abs/2003.03581) | [Github](https://github.com/EvgenyKashin/stylegan2-distillation)]  
-- **StyleFlow**: StyleFlow: attribute-conditioned exploration of StyleGAN-generated image using conditional continuous normalizing flows, arXiv2020 [[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200802401A/abstract)]   
-- Config: controllable neural face image generation, ECCV2020 [[Paper](https://arxiv.org/abs/2005.02671) | [Github](https://github.com/microsoft/ConfigNet)]
+- **StyleFlow**: attribute-conditioned exploration of StyleGAN-generated image using conditional continuous normalizing flows, arXiv2020 [[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200802401A/abstract)]   
+- **Config**: controllable neural face image generation, ECCV2020 [[Paper](https://arxiv.org/abs/2005.02671) | [Github](https://github.com/microsoft/ConfigNet)]
 - **InterFaceGAN**: Interpreting the latent space of GANs for semantic face editing, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Shen_Interpreting_the_Latent_Space_of_GANs_for_Semantic_Face_Editing_CVPR_2020_paper.html) | [Github](https://github.com/genforce/interfacegan)]  
-- **InterFaceGAN++**: InterFaceGAN: interpreting the disentangled face representation learend by GANs, PAMI2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9241434) | [Github](https://github.com/genforce/interfacegan)]
+- **InterFaceGAN++**: interpreting the disentangled face representation learend by GANs, PAMI2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9241434) | [Github](https://github.com/genforce/interfacegan)]
 - **StyleSpace**: StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wu_StyleSpace_Analysis_Disentangled_Controls_for_StyleGAN_Image_Generation_CVPR_2021_paper.html) | [Code](https://github.com/betterze/StyleSpace)]  
 #### Unsupervised Interpretable GAN Control  
 - Spatially Controllable Image Synthesis with Internal Representation Collaging, arXiv2018 [[Paper](https://arxiv.org/abs/1811.10153) | [Github](https://github.com/quolc/neural-collage)]  
-- **GANSpace**: GANSpace: discovering interpretable GAN controls, arXiv2020 [[Paper](https://arxiv.org/abs/2004.02546) | [Github](https://github.com/harskish/ganspace)]  
+- **GANSpace**: discovering interpretable GAN controls, arXiv2020 [[Paper](https://arxiv.org/abs/2004.02546) | [Github](https://github.com/harskish/ganspace)]  
 - Navigating the GAN Parameter Space for Semantic Image Editing, arXiv2020 [[Paper](https://arxiv.org/abs/2011.13786) | [Github](https://github.com/yandex-research/navigan)]  
 - Unsupervised discovery of interpretable directions in the GAN latent space, ICML2020 [[Paper](https://arxiv.org/abs/2002.03754) | [Github](https://github.com/anvoynov/GANLatentDiscovery)]  
 - Mask-Guided Discovery of Semantic Manifolds in Generative Models, NeursIPS-Worksho2020 [[Paper](https://mengyu.page/files/masked-gan-manifold.pdf) | [Github](https://github.com/bmolab/masked-gan-manifold)]
@@ -106,39 +111,41 @@ It's the repository for collecting papers that I read and category them accordin
 - Editing in Style: Uncovering the Local Semantics of GANs, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Collins_Editing_in_Style_Uncovering_the_Local_Semantics_of_GANs_CVPR_2020_paper.html) | [Github](https://github.com/IVRL/GANLocalEditing)]
 - **SeFa**: Closed-form factorization of latent semantics in GANs, CVPR2021 [[Paper](https://arxiv.org/abs/2007.06600) | [Github](https://github.com/genforce/sefa)]
 #### GAN Inversion  
-- **Image2StyleGAN**: Image2StyleGAN: how to embed images into the StyleGAN latent space? ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Abdal_Image2StyleGAN_How_to_Embed_Images_Into_the_StyleGAN_Latent_Space_ICCV_2019_paper.html)]  
+- **Image2StyleGAN**: how to embed images into the StyleGAN latent space? ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Abdal_Image2StyleGAN_How_to_Embed_Images_Into_the_StyleGAN_Latent_Space_ICCV_2019_paper.html)]  
 - Collaborative Learning for Faster StyleGAN Embedding, arXiv2020 [[Paper](https://arxiv.org/abs/2007.01758)]  
 - **IdInvert**: In-domain GAN inversion for real image editing, ECCV2020 [[Paper](https://arxiv.org/abs/2004.00049) | [Github](https://github.com/genforce/idinvert_pytorch)]
-- **Image2StyleGAN++**: Image2StyleGAN++: how to edit the embedded images?, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Abdal_Image2StyleGAN_How_to_Edit_the_Embedded_Images_CVPR_2020_paper.html)]
+- **Image2StyleGAN++**: how to edit the embedded images?, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Abdal_Image2StyleGAN_How_to_Edit_the_Embedded_Images_CVPR_2020_paper.html)]
 - Image processing using multi-code GAN prior, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Gu_Image_Processing_Using_Multi-Code_GAN_Prior_CVPR_2020_paper.html) | [Github](https://github.com/genforce/mganprior)]  
 #### Anime  
 - Illustration2Vec: A Semantic Vector Representation of Illustrations, SIGGRAPH2015 [[Paper](https://dl.acm.org/doi/abs/10.1145/2820903.2820907) | [Github](https://github.com/rezoo/illustration2vec)]  
 - Crypoko white paper, 2019 [[Paper](https://crypko.ai/static/files/crypko-whitepaper.pdf)]  
 #### Cartoon  
-- **CartoonGAN**: CartoonGAN: generative adversarial networks for photo cartoonization, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.html) | [Github](https://github.com/FlyingGoblin/CartoonGAN)]  
+- **CartoonGAN**: generative adversarial networks for photo cartoonization, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.html) | [Github](https://github.com/FlyingGoblin/CartoonGAN)]  
 - **Whie-box**: Learning to cartoonize using white-box cartoon representations supplementary materials, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.html) | [Github](https://github.com/SystemErrorWang/White-box-Cartoonization)]
 #### Face Attribute Transfer
-- **ATTGAN**: AttGAN: facial attribute editing by only changing what you want, TIP2019, [[Paper](https://arxiv.org/pdf/1711.10678.pdf) | [Github](https://github.com/LynnHo/AttGAN-Tensorflow)]  
-- **STGAN**: STGAN: a unified selective transfer network for arbitrary image attribute editing, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_STGAN_A_Unified_Selective_Transfer_Network_for_Arbitrary_Image_Attribute_CVPR_2019_paper.html) | [Github](https://github.com/csmliu/STGAN)]  
-- **PA-GAN**: PA-GAN: progressive attention generative adversarial network for facial attribute editing, arXiv2020 [[Paper](https://arxiv.org/abs/2007.05892) | [Github](https://github.com/LynnHo/PA-GAN-Tensorflow)]  
+- **AttGAN**: facial attribute editing by only changing what you want, TIP2019, [[Paper](https://arxiv.org/pdf/1711.10678.pdf) | [Github](https://github.com/LynnHo/AttGAN-Tensorflow)]  
+- **STGAN**: a unified selective transfer network for arbitrary image attribute editing, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_STGAN_A_Unified_Selective_Transfer_Network_for_Arbitrary_Image_Attribute_CVPR_2019_paper.html) | [Github](https://github.com/csmliu/STGAN)]  
+- **PA-GAN**: progressive attention generative adversarial network for facial attribute editing, arXiv2020 [[Paper](https://arxiv.org/abs/2007.05892) | [Github](https://github.com/LynnHo/PA-GAN-Tensorflow)]  
 - Image-to-Images Translation via Hierarchical Style Disentanglement, CVPR2021 [[Paper](https://arxiv.org/abs/2103.01456) | [Github](https://github.com/imlixinyang/HiSD)]  
 #### Face Change
 - FaceShifter towards high fidelity and occlusion aware face swapping, CVPR2020 [[Paper](https://arxiv.org/abs/1912.13457) | [Github](https://github.com/mindslab-ai/faceshifter)]
 #### Face Restoration
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
+- **GFP-GAN**: Towards Real-World Blind Face Restoration with Generative Facial Prior, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_Real-World_Blind_Face_Restoration_With_Generative_Facial_Prior_CVPR_2021_paper.html) | [Code](https://github.com/TencentARC/GFPGAN)]  
+- **RestoreFormer**: High-Quality Bilid Face Restoration from Undegraded Key-Value Pairs, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_RestoreFormer_High-Quality_Blind_Face_Restoration_From_Undegraded_Key-Value_Pairs_CVPR_2022_paper.html) | [Code](https://github.com/wzhouxiff/RestoreFormer)]  
 #### Inpainting  
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
-- **PD-GAN**: PD-GAN: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper](https://arxiv.org/abs/2105.02201) | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
-- DeFLOCNet: Deep Image Editing via Flexible Low-level Control, CVPR2021 [[Paper](https://arxiv.org/abs/2103.12723) | [Github](https://github.com/KumapowerLIU/DeFLOCNet)]  
+- **PD-GAN**: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper](https://arxiv.org/abs/2105.02201) | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
+- **DeFLOCNet**: Deep Image Editing via Flexible Low-level Control, CVPR2021 [[Paper](https://arxiv.org/abs/2103.12723) | [Github](https://github.com/KumapowerLIU/DeFLOCNet)]  
 
-#### Image Animation
+#### Visual Driven Image Animation
 - Generating Videos with Scene Dynamics, NIPS2016 [[Paper](https://proceedings.neurips.cc/paper/2016/hash/04025959b191f8f9de3f924f0940515f-Abstract.html) | [Code](https://github.com/GV1028/videogan)]  
-- **X2Face**: X2Face: A Network for Controlling Face Generation using Images, Audio, and Pose Codes, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.html) | [Code](https://github.com/oawiles/X2Face)]  
-- **GANimation**: GANimation: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)] 
-- **Recycle-GAN**: Recycle-GAN: Unsupervised Video Retargeting, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Aayush_Bansal_Recycle-GAN_Unsupervised_Video_ECCV_2018_paper.html) | [Code](https://github.com/aayushbansal/Recycle-GAN)]  
+- **X2Face**: A Network for Controlling Face Generation using Images, Audio, and Pose Codes, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.html) | [Code](https://github.com/oawiles/X2Face)]  
+- **GANimation**: Anatomically-aware Facial Animation from a Single Image, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Albert_Pumarola_Anatomically_Coherent_Facial_ECCV_2018_paper.html) | [Github](https://github.com/albertpumarola/GANimation)] 
+- **Recycle-GAN**: Unsupervised Video Retargeting, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Aayush_Bansal_Recycle-GAN_Unsupervised_Video_ECCV_2018_paper.html) | [Code](https://github.com/aayushbansal/Recycle-GAN)]  
 - Synthesizing Images of Humans in Unseen Poses, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.html) | [Code](https://github.com/balakg/posewarp-cvpr2018)]
 - Every Smile is Unique: Landmark-Guided Diverse Smile Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Every_Smile_Is_CVPR_2018_paper.html)]  
-- **MoCoGAN**: MoCoGAN: Decomposing Motion and Content for Video Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Tulyakov_MoCoGAN_Decomposing_Motion_CVPR_2018_paper.html) | [Code](https://github.com/sergeytulyakov/mocogan)]  
+- **MoCoGAN**: Decomposing Motion and Content for Video Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Tulyakov_MoCoGAN_Decomposing_Motion_CVPR_2018_paper.html) | [Code](https://github.com/sergeytulyakov/mocogan)]  
 - **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]  
 - **LWG**: Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.html) | [Code](https://github.com/svip-lab/impersonator)]
 - **MonkeyNet**: Animating Arbitrary Objects via Deep Motion Transfer, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Siarohin_Animating_Arbitrary_Objects_via_Deep_Motion_Transfer_CVPR_2019_paper.html) | [Github](https://github.com/AliaksandrSiarohin/monkey-net)]  
@@ -150,8 +157,11 @@ It's the repository for collecting papers that I read and category them accordin
 - Stochastic Image-to-Video Synthesis using cINNs, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Dorkenwald_Stochastic_Image-to-Video_Synthesis_Using_cINNs_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/image2video-synthesis-using-cINNs)]  
 - Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modling, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_Few-Shot_Human_Motion_Transfer_by_Personalized_Geometry_and_Texture_Modeling_CVPR_2021_paper.html) | [Code](https://github.com/HuangZhiChao95/FewShotMotionTransfer)]  
 - Pose-Guided Human Animation from a Single Image in the Wild, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yoon_Pose-Guided_Human_Animation_From_a_Single_Image_in_the_Wild_CVPR_2021_paper.html)]  
-- **StylePeople**: StylePeople: A Generative Model of Fullbody Human Avatars, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Grigorev_StylePeople_A_Generative_Model_of_Fullbody_Human_Avatars_CVPR_2021_paper.html) | [Code](https://github.com/Dolorousrtur/style-people)]  
+- **StylePeople**: A Generative Model of Fullbody Human Avatars, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Grigorev_StylePeople_A_Generative_Model_of_Fullbody_Human_Avatars_CVPR_2021_paper.html) | [Code](https://github.com/Dolorousrtur/style-people)]  
 
+#### Audio Driven Image Animation
+**SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talkign Face Animation, CVPR2023 [[Paper](https://arxiv.org/abs/2211.12194) | [Code](https://github.com/OpenTalker/SadTalker)]  
+**VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]  
 
 #### Fashion
 - Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
@@ -166,16 +176,16 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Deep Learning
 - **AlexNet**: ImageNet classification with deep convolutional neural networks, NeurIPS2011 [[Paper](https://dl.acm.org/doi/abs/10.1145/3065386)]  
-- **Adam**: ADAM: A Method for Stochastic Optimization, arXiv2014 [[Paper](https://arxiv.org/abs/1412.6980)]  
+- **Adam**: A Method for Stochastic Optimization, arXiv2014 [[Paper](https://arxiv.org/abs/1412.6980)]  
 - Spatial Transformer Networks, NeurIPS2015, [[Paper](https://arxiv.org/abs/1506.02025) | [Gitub](https://github.com/tensorpack/tensorpack/tree/master/examples/SpatialTransformer)]  
 - Learning from Massive Noisy Labeled Data for Image Classification, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Xiao_Learning_From_Massive_2015_CVPR_paper.html)]  
 - From Generic to Specific Deep Representations for Visual Recognition, CVPR2015 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W03/html/Azizpour_From_Generic_to_2015_CVPR_paper.html)]  
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
 - **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
-- **MobileNetv1**: MobileNets: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
-- **ShuffleNet**: ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.html) | [Code](https://github.com/megvii-model/ShuffleNet-Series)]  
-- **ShuffleNetv2**: ShuffleNet V2: Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]  
-- **MobileNetv2**: MobileNetV2: inverted residuals and linear bottlenecks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html) | [Github](https://github.com/d-li14/mobilenetv2.pytorch)]  
+- **MobileNet**: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
+- **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.html) | [Code](https://github.com/megvii-model/ShuffleNet-Series)]  
+- **ShuffleNetv2**: Sh Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]  
+- **MobileNetv2**: inverted residuals and linear bottlenecks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html) | [Github](https://github.com/d-li14/mobilenetv2.pytorch)]  
 - **MobileNetv3**: Searching for MobileNetV3, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) | [Github](https://github.com/leaderj1001/MobileNetV3-Pytorch)]  
 
 ## Medical
@@ -232,7 +242,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Unsupervised Learning of Object Landmarks through Conditional Image Generation, NeurIPS2018 [[Paper](https://arxiv.org/abs/1806.07823) | [Code](https://github.com/tomasjakab/imm)]  
 - Laplace Landmark Localization, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Robinson_Laplace_Landmark_Localization_ICCV_2019_paper.html)]  
 - Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Adaptive_Wing_Loss_for_Robust_Face_Alignment_via_Heatmap_Regression_ICCV_2019_paper.pdf) | [Code](https://github.com/protossw512/AdaptiveWingLoss)]  
-- **Arcface**: Arcface: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
+- **Arcface**: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
 
 ## Pose
 ### Human Pose
@@ -240,12 +250,12 @@ It's the repository for collecting papers that I read and category them accordin
 - Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?, arXiv2021 [[Paper](https://arxiv.org/abs/2107.03332) | [Code](https://github.com/leeyegy/SimDR)]  
 - Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
 - **HRNet**: Deep High-Resoluiton Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
-- **BlazePose**: BlazePose: On-device Real-time Body Pose Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10204)]  
-- **Lite-HRNet**: Lite-HRNet: A Lightweight High-Resolution Network, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Lite-HRNet_A_Lightweight_High-Resolution_Network_CVPR_2021_paper.html) | [Code](https://github.com/HRNet/Lite-HRNet)]  
+- **BlazePose**: On-device Real-time Body Pose Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10204)]  
+- **Lite-HRNet**: A Lightweight High-Resolution Network, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Lite-HRNet_A_Lightweight_High-Resolution_Network_CVPR_2021_paper.html) | [Code](https://github.com/HRNet/Lite-HRNet)]  
 
 ### Human Mesh
 - Keep It SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_34) | [Code](https://github.com/Jtoo/fitting_human_smpl_model)]  
-- **Pose2Mesh**: Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58571-6_45) | [Code](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)]  
+- **Pose2Mesh**: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58571-6_45) | [Code](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)]  
 
 ## Hands
 ### Hands Pose
@@ -255,12 +265,12 @@ It's the repository for collecting papers that I read and category them accordin
 - End-to-End Detection and Pose Estimation of Two Interacting Hands, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_End-to-End_Detection_and_Pose_Estimation_of_Two_Interacting_Hands_ICCV_2021_paper.html)]  
 
 ### Hands Mesh
-- **MobileHand**: MobileHand: Real-Time 3D Hand Shape and Pose Estimation from Color Image, ICNIP2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-63820-7_52) | [Code](https://github.com/gmntu/mobilehand)]  
+- **MobileHand**: Real-Time 3D Hand Shape and Pose Estimation from Color Image, ICNIP2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-63820-7_52) | [Code](https://github.com/gmntu/mobilehand)]  
 - **MEgATrack**: MEgATrack: Monochrome Egocentric Articulated Hand Tracking for Virtual Reality, TOG2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3386569.3392452) | [Code](https://github.com/milkcat0904/MegaTrack-pytorch)]  
 - **Minimal-Hand**: Monocular Real-time Hand Shape and Motion Capture using Multi-modal Data, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Monocular_Real-Time_Hand_Shape_and_Motion_Capture_Using_Multi-Modal_Data_CVPR_2020_paper.html) | [Code](https://github.com/CalciferZh/minimal-hand)]  
 - **Youtube3d**: Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)]  
 - Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Tang_Towards_Accurate_Alignment_in_Real-Time_3D_Hand-Mesh_Reconstruction_ICCV_2021_paper.html) | [Code](https://github.com/wbstx/handAR)]  
-- **MobRecon**: MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
+- **MobRecon**: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
 
 ##  Fingerprint
 - Segmentation of fingerprint images using the directional image, PR1987 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/0031320387900690)]
@@ -292,7 +302,7 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - Bounding Box Regression with Uncertainty for Accurate Object Detection, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.html) | [Code](https://github.com/yihui-he/KL-Loss)]  
 
 ## Segmentation
-- **UNet**: U-Net: Convolutional Networks for Biomedical Image Segmentation, MICCAI2015 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) | [Code](https://github.com/ChengBinJin/U-Net-TensorFlow)]  
+- **UNet**: Convolutional Networks for Biomedical Image Segmentation, MICCAI2015 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) | [Code](https://github.com/ChengBinJin/U-Net-TensorFlow)]  
 - **FCN**: Fully Convolutional Networks for Semantic Segmentation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) | [Code](https://github.com/shelhamer/fcn.berkeleyvision.org)]  
 
 ## Depth Estimation
