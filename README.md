@@ -56,6 +56,8 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Stable Diffusion
 - **LSD**: High-Resolution Image Synthesis with Latent Diffusion Models, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | [Code](https://github.com/CompVis/latent-diffusion)]  
+- **Gen-1**: Structure and Content-Guided Video Synthesis with Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.03011)]  
+- **ControlNet**: Adding Conditional Control to Text-to-Image Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.05543) | [Code](https://github.com/lllyasviel/ControlNet)]  
 
 ## GANS
 #### Training Technique  
@@ -259,16 +261,19 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Hands
 ### Hands Pose
+- Hand Keypoint Detection in Single Images using Multivew Bootstrapping, ICCV2017 [[Code](https://openaccess.thecvf.com/content_cvpr_2017/html/Simon_Hand_Keypoint_Detection_CVPR_2017_paper.html)]   
 - MediaPipe Hands: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214) | [Code](https://google.github.io/mediapipe/solutions/hands.html)]  
 - InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_33) | [Code](https://github.com/facebookresearch/InterHand2.6M)]  
 - On-device Real-time Hand Gesture Recognition, arXiv2021 [[Paper](https://arxiv.org/abs/2111.00038)]  
 - End-to-End Detection and Pose Estimation of Two Interacting Hands, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_End-to-End_Detection_and_Pose_Estimation_of_Two_Interacting_Hands_ICCV_2021_paper.html)]  
 
 ### Hands Mesh
+- **MANO**: Embodied Hands: Modeling and Capturing Hands and Bodies Together, SIGGRAPH Asia 2017 [[Paper](https://arxiv.org/abs/2201.02610)]    
 - **MobileHand**: Real-Time 3D Hand Shape and Pose Estimation from Color Image, ICNIP2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-63820-7_52) | [Code](https://github.com/gmntu/mobilehand)]  
 - **MEgATrack**: MEgATrack: Monochrome Egocentric Articulated Hand Tracking for Virtual Reality, TOG2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3386569.3392452) | [Code](https://github.com/milkcat0904/MegaTrack-pytorch)]  
 - **Minimal-Hand**: Monocular Real-time Hand Shape and Motion Capture using Multi-modal Data, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Monocular_Real-Time_Hand_Shape_and_Motion_Capture_Using_Multi-Modal_Data_CVPR_2020_paper.html) | [Code](https://github.com/CalciferZh/minimal-hand)]  
-- **Youtube3d**: Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)]  
+- **Youtube3d**: Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)] 
+- Two-Hand Global 3D Pose Estimation using Monocular RGB, WACV2021 [[Paper](https://openaccess.thecvf.com/content/WACV2021/html/Lin_Two-Hand_Global_3D_Pose_Estimation_Using_Monocular_RGB_WACV_2021_paper.html) | [Code](https://github.com/AlextheEngineer/Ego3DHands)]   
 - Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Tang_Towards_Accurate_Alignment_in_Real-Time_3D_Hand-Mesh_Reconstruction_ICCV_2021_paper.html) | [Code](https://github.com/wbstx/handAR)]  
 - **MobRecon**: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
 
