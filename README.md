@@ -262,8 +262,8 @@ It's the repository for collecting papers that I read and category them accordin
 ## Hands
 ### Hands Pose
 - Hand Keypoint Detection in Single Images using Multivew Bootstrapping, ICCV2017 [[Code](https://openaccess.thecvf.com/content_cvpr_2017/html/Simon_Hand_Keypoint_Detection_CVPR_2017_paper.html)]   
-- MediaPipe Hands: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214) | [Code](https://google.github.io/mediapipe/solutions/hands.html)]  
-- InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_33) | [Code](https://github.com/facebookresearch/InterHand2.6M)]  
+- **MediaPipe Hands**: On-device Real-time Hand Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10214) | [Code](https://google.github.io/mediapipe/solutions/hands.html)]  
+- **InterHand2.6M**: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_33) | [Code](https://github.com/facebookresearch/InterHand2.6M)]  
 - On-device Real-time Hand Gesture Recognition, arXiv2021 [[Paper](https://arxiv.org/abs/2111.00038)]  
 - End-to-End Detection and Pose Estimation of Two Interacting Hands, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_End-to-End_Detection_and_Pose_Estimation_of_Two_Interacting_Hands_ICCV_2021_paper.html)]  
 
