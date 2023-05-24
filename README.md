@@ -129,6 +129,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **STGAN**: a unified selective transfer network for arbitrary image attribute editing, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_STGAN_A_Unified_Selective_Transfer_Network_for_Arbitrary_Image_Attribute_CVPR_2019_paper.html) | [Github](https://github.com/csmliu/STGAN)]  
 - **PA-GAN**: progressive attention generative adversarial network for facial attribute editing, arXiv2020 [[Paper](https://arxiv.org/abs/2007.05892) | [Github](https://github.com/LynnHo/PA-GAN-Tensorflow)]  
 - Image-to-Images Translation via Hierarchical Style Disentanglement, CVPR2021 [[Paper](https://arxiv.org/abs/2103.01456) | [Github](https://github.com/imlixinyang/HiSD)]  
+- HairMapper: Removing Hair from Portraits using GANs, 3D Mesh Recovery 2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_HairMapper_Removing_Hair_From_Portraits_Using_GANs_CVPR_2022_paper.html) | [Code](https://github.com/oneThousand1000/HairMapper)]  
+
 #### Face Change
 - FaceShifter towards high fidelity and occlusion aware face swapping, CVPR2020 [[Paper](https://arxiv.org/abs/1912.13457) | [Github](https://github.com/mindslab-ai/faceshifter)]
 #### Face Restoration
@@ -248,6 +250,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Pose
 ### Human Pose
+- Stacked Hourglass Networks for Human Pose Estimation, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46484-8_29) | [Code](https://github.com/wbenbihi/hourglasstensorflow)]  
 - **OpenPose**: Realtim Multi-Person 2D Pose Estimation using Part Affinity Fields, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.html) | [Code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]  
 - Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?, arXiv2021 [[Paper](https://arxiv.org/abs/2107.03332) | [Code](https://github.com/leeyegy/SimDR)]  
 - Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
@@ -275,7 +278,9 @@ It's the repository for collecting papers that I read and category them accordin
 - **Youtube3d**: Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)] 
 - Two-Hand Global 3D Pose Estimation using Monocular RGB, WACV2021 [[Paper](https://openaccess.thecvf.com/content/WACV2021/html/Lin_Two-Hand_Global_3D_Pose_Estimation_Using_Monocular_RGB_WACV_2021_paper.html) | [Code](https://github.com/AlextheEngineer/Ego3DHands)]   
 - Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Tang_Towards_Accurate_Alignment_in_Real-Time_3D_Hand-Mesh_Reconstruction_ICCV_2021_paper.html) | [Code](https://github.com/wbstx/handAR)]  
+- Interacting Two-Hand 3D Pose and Shape Reconstruction From Single Color Image, ICCV2021 [[Paer](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Interacting_Two-Hand_3D_Pose_and_Shape_Reconstruction_From_Single_Color_ICCV_2021_paper.html) | [Code](https://github.com/BaowenZ/Two-Hand-Shape-Pose)]  
 - **MobRecon**: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
+- Interacting Attention Graph for Single Image Two-Hand Reconstruction, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.html)]  
 
 ##  Fingerprint
 - Segmentation of fingerprint images using the directional image, PR1987 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/0031320387900690)]
@@ -304,6 +309,7 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - **R-CNN**: Rich feature hierarchies for accurate object detection and semantic segmentation, CVPR2014 [[Paper](https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)]  
 - End-to-End People Detection in Crowded Scenes, CVPR2016 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Stewart_End-To-End_People_Detection_CVPR_2016_paper.html)]  
 - Feature pyramid networks for object detection, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.html) | [Github](https://github.com/facebookresearch/detectron)]  
+- **BlazeFace**: Sub-millisecond Neural Face Detection on Mobile GPUs, CoRR2019 [[Paper](https://arxiv.org/abs/1907.05047)] 
 - Bounding Box Regression with Uncertainty for Accurate Object Detection, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.html) | [Code](https://github.com/yihui-he/KL-Loss)]  
 
 ## Segmentation
