@@ -2,6 +2,8 @@
 It's the repository for collecting papers that I read and category them according to the different objectives.
 
 - [Stable Diffusion](#stable-diffusion)
+  - [Text to Image](#text-to-image)
+  - [Text to Video](#text-to-video)
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Training with Limited Data](#training-with-limited-data)
@@ -55,9 +57,14 @@ It's the repository for collecting papers that I read and category them accordin
 - [Robotics](#robotics)
 
 ## Stable Diffusion
+#### Text to Image
 - **LSD**: High-Resolution Image Synthesis with Latent Diffusion Models, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | [Code](https://github.com/CompVis/latent-diffusion)]  
-- **Gen-1**: Structure and Content-Guided Video Synthesis with Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.03011)]  
 - **ControlNet**: Adding Conditional Control to Text-to-Image Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.05543) | [Code](https://github.com/lllyasviel/ControlNet)]  
+- **InstructPix2Pix**: Learning to Follow Image Editing Instructions, CVPR2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper.html) | [Code](https://github.com/timothybrooks/instruct-pix2pix)]  
+
+#### Text to Video
+- **Gen-1**: Structure and Content-Guided Video Synthesis with Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.03011)]  
+- **Follow Your Pose**: Pose-Guided Text-to-Video Generation using Pose-Free Videos, arXiv2023 [[Paper](https://arxiv.org/abs/2304.01186) | [Code](https://github.com/mayuelala/FollowYourPose)]  
 
 ## GANS
 #### Training Technique  
@@ -132,10 +139,12 @@ It's the repository for collecting papers that I read and category them accordin
 - HairMapper: Removing Hair from Portraits using GANs, 3D Mesh Recovery 2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_HairMapper_Removing_Hair_From_Portraits_Using_GANs_CVPR_2022_paper.html) | [Code](https://github.com/oneThousand1000/HairMapper)]  
 
 #### Face Change
+- **SimSwap**: An Efficient Framework for High Fidelity Face Swapping, ICM2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413630) | [Code](https://github.com/neuralchen/SimSwap)]  
 - FaceShifter towards high fidelity and occlusion aware face swapping, CVPR2020 [[Paper](https://arxiv.org/abs/1912.13457) | [Github](https://github.com/mindslab-ai/faceshifter)]
 #### Face Restoration
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
 - **GFP-GAN**: Towards Real-World Blind Face Restoration with Generative Facial Prior, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_Real-World_Blind_Face_Restoration_With_Generative_Facial_Prior_CVPR_2021_paper.html) | [Code](https://github.com/TencentARC/GFPGAN)]  
+- **GPEN**: GAN Prior Embedded Network for Blind Face Restoration in the Wild, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_GAN_Prior_Embedded_Network_for_Blind_Face_Restoration_in_the_CVPR_2021_paper.html) | [Code](https://github.com/yangxy/GPEN)]  
 - **RestoreFormer**: High-Quality Bilid Face Restoration from Undegraded Key-Value Pairs, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_RestoreFormer_High-Quality_Blind_Face_Restoration_From_Undegraded_Key-Value_Pairs_CVPR_2022_paper.html) | [Code](https://github.com/wzhouxiff/RestoreFormer)]  
 #### Inpainting  
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
@@ -185,7 +194,8 @@ It's the repository for collecting papers that I read and category them accordin
 - Learning from Massive Noisy Labeled Data for Image Classification, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Xiao_Learning_From_Massive_2015_CVPR_paper.html)]  
 - From Generic to Specific Deep Representations for Visual Recognition, CVPR2015 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W03/html/Azizpour_From_Generic_to_2015_CVPR_paper.html)]  
 - **PReLU & He initialization**: Delving deep into rectifiers: surpassing human-level performance on ImageNet classification, ICCV2015 [[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/He_Delving_Deep_into_ICCV_2015_paper.html)]  
-- **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]
+- **InstanceNorm**: Instance normalization: the missing ingredient for fast stylization, arXiv2016 [[Paper](https://arxiv.org/abs/1607.08022)]  
+- **CAM**: Learning Deep Features for Discriminative Localization, CVPR2016 [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhou_Learning_Deep_Features_CVPR_2016_paper.html) | [Code](https://github.com/zhoubolei/CAM)]  
 - **MobileNet**: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
 - **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.html) | [Code](https://github.com/megvii-model/ShuffleNet-Series)]  
 - **ShuffleNetv2**: Sh Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]  
