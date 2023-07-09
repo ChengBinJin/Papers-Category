@@ -25,7 +25,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Face Restoration](#face-restoration)
   - [Inpainting](#Inpainting)
   - [Visual Driven Image Animation](#visual-driven-image-animation)
-  - [Audio Driven Image Animation](#audio-driven-image-animation)
+  - [Audio-Driven Image Animation](#audio-driven-image-animation)
   - [Fashion](#fashion)
   - [Transformer](#transformer)
 - [Style Transfer](#style-transfer)
@@ -172,7 +172,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Pose-Guided Human Animation from a Single Image in the Wild, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yoon_Pose-Guided_Human_Animation_From_a_Single_Image_in_the_Wild_CVPR_2021_paper.html)]  
 - **StylePeople**: A Generative Model of Fullbody Human Avatars, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Grigorev_StylePeople_A_Generative_Model_of_Fullbody_Human_Avatars_CVPR_2021_paper.html) | [Code](https://github.com/Dolorousrtur/style-people)]  
 
-#### Audio Driven Image Animation
+#### Audio-Driven Image Animation
 - **SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talkign Face Animation, CVPR2023 [[Paper](https://arxiv.org/abs/2211.12194) | [Code](https://github.com/OpenTalker/SadTalker)]  
 - **VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]  
 
@@ -200,7 +200,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.html) | [Code](https://github.com/megvii-model/ShuffleNet-Series)]  
 - **ShuffleNetv2**: Sh Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]  
 - **MobileNetv2**: inverted residuals and linear bottlenecks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html) | [Github](https://github.com/d-li14/mobilenetv2.pytorch)]  
-- **MobileNetv3**: Searching for MobileNetV3, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) | [Github](https://github.com/leaderj1001/MobileNetV3-Pytorch)]  
+- **MobileNetv3**: Searching for MobileNetV3, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) | [Github](https://github.com/leaderj1001/MobileNetV3-Pytorch)]
+- **HRNetv2**: Deep High-Resolution Representation Learning for Visual Recognition, TPAMI2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9052469) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
 
 ## Medical
 - Virtual PET Images from CT Data using Deep Convolutional Networks: Initial Results, SASHMI2017 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-68127-6_6)]  
@@ -269,8 +270,9 @@ It's the repository for collecting papers that I read and category them accordin
 - **Lite-HRNet**: A Lightweight High-Resolution Network, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Lite-HRNet_A_Lightweight_High-Resolution_Network_CVPR_2021_paper.html) | [Code](https://github.com/HRNet/Lite-HRNet)]  
 
 ### Human Mesh
-- Keep It SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_34) | [Code](https://github.com/Jtoo/fitting_human_smpl_model)]  
-- **Pose2Mesh**: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58571-6_45) | [Code](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)]  
+- Keep It SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_34) | [Code](https://github.com/Jtoo/fitting_human_smpl_model)]
+- **Simplify-x**: Expressive Body Capture: 3D Hands, Face, and Body from a Single Image, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Pavlakos_Expressive_Body_Capture_3D_Hands_Face_and_Body_From_a_CVPR_2019_paper.pdf) | [Code](https://github.com/vchoutas/smplify-x)]  
+- **Pose2Mesh**: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose, ECCV2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58571-6_45) | [Code](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)]
 
 ## Hands
 ### Hands Pose
@@ -281,14 +283,17 @@ It's the repository for collecting papers that I read and category them accordin
 - End-to-End Detection and Pose Estimation of Two Interacting Hands, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_End-to-End_Detection_and_Pose_Estimation_of_Two_Interacting_Hands_ICCV_2021_paper.html)]  
 
 ### Hands Mesh
-- **MANO**: Embodied Hands: Modeling and Capturing Hands and Bodies Together, SIGGRAPH Asia 2017 [[Paper](https://arxiv.org/abs/2201.02610)]    
+- **MANO**: Embodied Hands: Modeling and Capturing Hands and Bodies Together, SIGGRAPH Asia 2017 [[Paper](https://arxiv.org/abs/2201.02610)]
+- **Ego2Hands**: A Dataset for Egocentric Two-hand Segmentation and Detection, arXiv2020 [[Paper](https://arxiv.org/abs/2011.07252) | [Code](https://github.com/AlextheEngineer/Ego2Hands)]     
 - **MobileHand**: Real-Time 3D Hand Shape and Pose Estimation from Color Image, ICNIP2020 [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-63820-7_52) | [Code](https://github.com/gmntu/mobilehand)]  
 - **MEgATrack**: MEgATrack: Monochrome Egocentric Articulated Hand Tracking for Virtual Reality, TOG2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3386569.3392452) | [Code](https://github.com/milkcat0904/MegaTrack-pytorch)]  
 - **Minimal-Hand**: Monocular Real-time Hand Shape and Motion Capture using Multi-modal Data, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Monocular_Real-Time_Hand_Shape_and_Motion_Capture_Using_Multi-Modal_Data_CVPR_2020_paper.html) | [Code](https://github.com/CalciferZh/minimal-hand)]  
 - **Youtube3d**: Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.html) | [Code](https://github.com/arielai/youtube_3d_hands)] 
-- Two-Hand Global 3D Pose Estimation using Monocular RGB, WACV2021 [[Paper](https://openaccess.thecvf.com/content/WACV2021/html/Lin_Two-Hand_Global_3D_Pose_Estimation_Using_Monocular_RGB_WACV_2021_paper.html) | [Code](https://github.com/AlextheEngineer/Ego3DHands)]   
+- Two-Hand Global 3D Pose Estimation using Monocular RGB, WACV2021 [[Paper](https://openaccess.thecvf.com/content/WACV2021/html/Lin_Two-Hand_Global_3D_Pose_Estimation_Using_Monocular_RGB_WACV_2021_paper.html) | [Code](https://github.com/AlextheEngineer/Ego3DHands)]
+- Monocular 3D Reconstruction of Interacting Hands via Collision-Aware Factorized Refinements, 3D Vision 2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9665866) | [Code](https://github.com/penincillin/IHMR)] 
 - Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Tang_Towards_Accurate_Alignment_in_Real-Time_3D_Hand-Mesh_Reconstruction_ICCV_2021_paper.html) | [Code](https://github.com/wbstx/handAR)]  
-- Interacting Two-Hand 3D Pose and Shape Reconstruction From Single Color Image, ICCV2021 [[Paer](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Interacting_Two-Hand_3D_Pose_and_Shape_Reconstruction_From_Single_Color_ICCV_2021_paper.html) | [Code](https://github.com/BaowenZ/Two-Hand-Shape-Pose)]  
+- Interacting Two-Hand 3D Pose and Shape Reconstruction From Single Color Image, ICCV2021 [[Paer](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Interacting_Two-Hand_3D_Pose_and_Shape_Reconstruction_From_Single_Color_ICCV_2021_paper.html) | [Code](https://github.com/BaowenZ/Two-Hand-Shape-Pose)]
+- **Ego2HandsPose**: A Dataset for Egocentric Two-hand 3D Global Pose Estimation, arXiv2022 [[Paper](https://arxiv.org/abs/2206.04927)]  
 - **MobRecon**: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
 - Interacting Attention Graph for Single Image Two-Hand Reconstruction, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.html)]  
 
