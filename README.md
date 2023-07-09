@@ -3,7 +3,9 @@ It's the repository for collecting papers that I read and category them accordin
 
 - [Stable Diffusion](#stable-diffusion)
   - [Text to Image](#text-to-image)
+  - [Swap](#swap)  
   - [Text to Video](#text-to-video)
+  - [Training](#training)  
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Training with Limited Data](#training-with-limited-data)
@@ -62,9 +64,16 @@ It's the repository for collecting papers that I read and category them accordin
 - **ControlNet**: Adding Conditional Control to Text-to-Image Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.05543) | [Code](https://github.com/lllyasviel/ControlNet)]  
 - **InstructPix2Pix**: Learning to Follow Image Editing Instructions, CVPR2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper.html) | [Code](https://github.com/timothybrooks/instruct-pix2pix)]  
 
+#### Swap
+**PhotoSwap**: Personalized Subject Swapping in Images, arXiv2023 [[Paper](https://arxiv.org/abs/2305.18286) | [Code](https://github.com/eric-ai-lab/photoswap)]  
+
 #### Text to Video
 - **Gen-1**: Structure and Content-Guided Video Synthesis with Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.03011)]  
-- **Follow Your Pose**: Pose-Guided Text-to-Video Generation using Pose-Free Videos, arXiv2023 [[Paper](https://arxiv.org/abs/2304.01186) | [Code](https://github.com/mayuelala/FollowYourPose)]  
+- **Follow Your Pose**: Pose-Guided Text-to-Video Generation using Pose-Free Videos, arXiv2023 [[Paper](https://arxiv.org/abs/2304.01186) | [Code](https://github.com/mayuelala/FollowYourPose)]
+- **Make-Your-Video**: Customized Video Generation using Textual and Structural Guidance, arXiv2023 [[Paper](https://arxiv.org/abs/2306.00943) | [Code](https://github.com/VideoCrafter/Make-Your-Video)]  
+
+#### Training
+**Textual Inversion**: An Image Is Worth One Word: Personalizing Text-to-image Generation using Textual Inversion, arXiv2023 [[Paper](https://arxiv.org/abs/2208.01618) | [Code](https://github.com/rinongal/textual_inversion)]  
 
 ## GANS
 #### Training Technique  
@@ -119,6 +128,7 @@ It's the repository for collecting papers that I read and category them accordin
 - The hessian penalty: a weak prior for unsupervised disentanglement, ECCV2020 [[Paper](https://arxiv.org/abs/2008.10599) | [Github](https://github.com/wpeebles/hessian_penalty)]  
 - Editing in Style: Uncovering the Local Semantics of GANs, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Collins_Editing_in_Style_Uncovering_the_Local_Semantics_of_GANs_CVPR_2020_paper.html) | [Github](https://github.com/IVRL/GANLocalEditing)]
 - **SeFa**: Closed-form factorization of latent semantics in GANs, CVPR2021 [[Paper](https://arxiv.org/abs/2007.06600) | [Github](https://github.com/genforce/sefa)]
+- **DragGAN**: Drag Your GAN: Interactive Point-based manipulation on the Generative Image Manifold, arXiv2023 [[Paper](https://arxiv.org/abs/2305.10973) | [Code](https://github.com/XingangPan/DragGAN)]  
 #### GAN Inversion  
 - **Image2StyleGAN**: how to embed images into the StyleGAN latent space? ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Abdal_Image2StyleGAN_How_to_Embed_Images_Into_the_StyleGAN_Latent_Space_ICCV_2019_paper.html)]  
 - Collaborative Learning for Faster StyleGAN Embedding, arXiv2020 [[Paper](https://arxiv.org/abs/2007.01758)]  
