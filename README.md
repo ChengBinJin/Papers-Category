@@ -136,7 +136,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **STGAN**: a unified selective transfer network for arbitrary image attribute editing, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_STGAN_A_Unified_Selective_Transfer_Network_for_Arbitrary_Image_Attribute_CVPR_2019_paper.html) | [Github](https://github.com/csmliu/STGAN)]  
 - **PA-GAN**: progressive attention generative adversarial network for facial attribute editing, arXiv2020 [[Paper](https://arxiv.org/abs/2007.05892) | [Github](https://github.com/LynnHo/PA-GAN-Tensorflow)]  
 - Image-to-Images Translation via Hierarchical Style Disentanglement, CVPR2021 [[Paper](https://arxiv.org/abs/2103.01456) | [Github](https://github.com/imlixinyang/HiSD)]  
-- HairMapper: Removing Hair from Portraits using GANs, 3D Mesh Recovery 2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_HairMapper_Removing_Hair_From_Portraits_Using_GANs_CVPR_2022_paper.html) | [Code](https://github.com/oneThousand1000/HairMapper)]  
+- **HairMapper**: Removing Hair from Portraits using GANs, 3D Mesh Recovery 2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_HairMapper_Removing_Hair_From_Portraits_Using_GANs_CVPR_2022_paper.html) | [Code](https://github.com/oneThousand1000/HairMapper)]  
 
 #### Face Change
 - **SimSwap**: An Efficient Framework for High Fidelity Face Swapping, ICM2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413630) | [Code](https://github.com/neuralchen/SimSwap)]  
@@ -295,7 +295,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Interacting Two-Hand 3D Pose and Shape Reconstruction From Single Color Image, ICCV2021 [[Paer](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Interacting_Two-Hand_3D_Pose_and_Shape_Reconstruction_From_Single_Color_ICCV_2021_paper.html) | [Code](https://github.com/BaowenZ/Two-Hand-Shape-Pose)]
 - **Ego2HandsPose**: A Dataset for Egocentric Two-hand 3D Global Pose Estimation, arXiv2022 [[Paper](https://arxiv.org/abs/2206.04927)]  
 - **MobRecon**: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.html) | [Code](https://github.com/SeanChenxy/HandMesh)]  
-- Interacting Attention Graph for Single Image Two-Hand Reconstruction, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.html)]  
+- **IntagHand**: Interacting Attention Graph for Single Image Two-Hand Reconstruction, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.html)]  
 
 ##  Fingerprint
 - Segmentation of fingerprint images using the directional image, PR1987 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/0031320387900690)]
