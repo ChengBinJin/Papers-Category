@@ -319,10 +319,10 @@ It's the repository for collecting papers that I read and category them accordin
 Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_20) | [Code](https://github.com/BlueWinters/DeepWarp)]
 
 ## Iris
-- Synthesis of Large Realistic Iris Databases using Patch-based Sampling, ICPR2008, [[Paper](https://ieeexplore.ieee.org/abstract/document/4761674)]    
-- Iris-GAN: Learning to Generate Realistic Iris Images Using Convolutional GAN, arXiv2018 [[Paper](https://arxiv.org/abs/1812.04822)]  
 - Robust iris segmentation via simple circular and linear filter, JEI2008, [[Paper](https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-17/issue-4/043027/Robust-iris-segmentation-via-simple-circular-and-linear-filters/10.1117/1.3050067.short?SSO=1)]  
+- Synthesis of Large Realistic Iris Databases using Patch-based Sampling, ICPR2008, [[Paper](https://ieeexplore.ieee.org/abstract/document/4761674)]
 - A new texture analysis appraoch for iris recognition, CCSP2014, [[Paper](https://www.sciencedirect.com/science/article/pii/S2212671614001024)]  
+- Iris-GAN: Learning to Generate Realistic Iris Images Using Convolutional GAN, arXiv2018 [[Paper](https://arxiv.org/abs/1812.04822)]  
 - MinENet: A Dilated CNN for Semantic Segmentation of Eye Features, ICCVW2019 [[Paper](https://openaccess.thecvf.com/content_ICCVW_2019/html/OpenEDS/Perry_MinENet_A_Dilated_CNN_for_Semantic_Segmentation_of_Eye_Features_ICCVW_2019_paper.html)]  
 
 ## Detection
