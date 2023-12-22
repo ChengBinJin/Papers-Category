@@ -395,4 +395,4 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - **BERT:** Pre-training of Deep Bidirectional Transformers for Language Understanding, arXiv2018 [[Paper](https://arxiv.org/abs/1810.04805) | [Code](https://github.com/google-research/bert)]  
 
 ## Speech Representation
-- **Wav2Vec2.0:** A Framework for Self-Supervised Learning of Speech Representations, NeurIPS2023, [[Paper](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [Code](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)]  
+- **Wav2Vec2.0:** A Framework for Self-Supervised Learning of Speech Representations, NeurIPS2020, [[Paper](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [Code](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)]  
