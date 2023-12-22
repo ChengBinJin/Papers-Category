@@ -25,7 +25,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Face Attribute Transfer](#face-attribute-transfer)
   - [Face Change](#face-change)  
   - [Face Restoration](#face-restoration)
-  - [Inpainting](#Inpainting)
+  - [Inpainting](#inpainting)
   - [Visual Driven Image Animation](#visual-driven-image-animation)
   - [Audio-Driven Image Animation](#audio-driven-image-animation)
   - [Speech2Face](#speech2face)
@@ -43,7 +43,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Face](#face)
 - [Pose](#pose)
   - [Human Pose](#human-pose)
-  - [Pose Mesh](#pose-mesh)
+  - [Human Mesh](#human-mesh)
 - [Hands](#hands)
   - [Hands Pose](#hands-pose)
   - [Hands Mesh](#hands-mesh)
@@ -159,7 +159,8 @@ It's the repository for collecting papers that I read and category them accordin
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
 - **GFP-GAN**: Towards Real-World Blind Face Restoration with Generative Facial Prior, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_Real-World_Blind_Face_Restoration_With_Generative_Facial_Prior_CVPR_2021_paper.html) | [Code](https://github.com/TencentARC/GFPGAN)]  
 - **GPEN**: GAN Prior Embedded Network for Blind Face Restoration in the Wild, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_GAN_Prior_Embedded_Network_for_Blind_Face_Restoration_in_the_CVPR_2021_paper.html) | [Code](https://github.com/yangxy/GPEN)]  
-- **RestoreFormer**: High-Quality Bilid Face Restoration from Undegraded Key-Value Pairs, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_RestoreFormer_High-Quality_Blind_Face_Restoration_From_Undegraded_Key-Value_Pairs_CVPR_2022_paper.html) | [Code](https://github.com/wzhouxiff/RestoreFormer)]  
+- **RestoreFormer**: High-Quality Bilid Face Restoration from Undegraded Key-Value Pairs, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_RestoreFormer_High-Quality_Blind_Face_Restoration_From_Undegraded_Key-Value_Pairs_CVPR_2022_paper.html) | [Code](https://github.com/wzhouxiff/RestoreFormer)]
+  
 #### Inpainting  
 - Large Scale Image Completion via Co-Modulated Generative Adversarial Networks, ICLR2021 [[Paper](https://openreview.net/forum?id=sSjqmfsk95O)]  
 - **PD-GAN**: Probabilistic Diverse GAN for Image Inpainting, CVPR2021 [[Paper](https://arxiv.org/abs/2105.02201) | [Github](https://github.com/KumapowerLIU/PD-GAN)]  
@@ -394,5 +395,4 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - **BERT:** Pre-training of Deep Bidirectional Transformers for Language Understanding, arXiv2018 [[Paper](https://arxiv.org/abs/1810.04805) | [Code](https://github.com/google-research/bert)]  
 
 ## Speech Representation
-- **Wav2Vec2.0:** A Framework for Self-Supervised Learning of Speech Representations, NeurIPS2023, [[Paper](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [Code] 
- (https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)]  
+- **Wav2Vec2.0:** A Framework for Self-Supervised Learning of Speech Representations, NeurIPS2023, [[Paper](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [Code](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)]  
