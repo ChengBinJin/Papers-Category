@@ -28,7 +28,9 @@ It's the repository for collecting papers that I read and category them accordin
   - [Inpainting](#Inpainting)
   - [Visual Driven Image Animation](#visual-driven-image-animation)
   - [Audio-Driven Image Animation](#audio-driven-image-animation)
+  - [Speech2Face](#speech2face)
   - [Fashion](#fashion)
+  - [License Plate Recognition](#license-plate-recognition)
   - [Transformer](#transformer)
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
@@ -57,6 +59,8 @@ It's the repository for collecting papers that I read and category them accordin
 - [Depth Camera](#depth-camera)
 - [Stereo](#stereo)
 - [Robotics](#robotics)
+- [Natural Language Processing](#natural-language-processing)
+- [Speech Representation](#speech-representation)
 
 ## Stable Diffusion
 #### Text to Image
@@ -185,16 +189,23 @@ It's the repository for collecting papers that I read and category them accordin
 #### Audio-Driven Image Animation
 - Out of Time: Automated Lip Sync in the Wild, ACCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-54427-4_19) | [Code](https://github.com/joonson/syncnet_python)]
 - **Wav2Lip**: A Lip Sync Expert is All You Need for Speech to Lip Generation in the Wild, ICM2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413532) | [Code](https://github.com/Rudrabha/Wav2Lip)]
-- **LipSync3D**: Data-Efficient Learning of Personalized 3D Talking Faces from Video using Pose and Lighting Normalization, CVPR2021 [[Paper](https://arxiv.org/abs/2106.04185)]  
-- **VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]
+- **LipSync3D**: Data-Efficient Learning of Personalized 3D Talking Faces from Video using Pose and Lighting Normalization, CVPR2021 [[Paper](https://arxiv.org/abs/2106.04185)]
+- **Everybody's Talkin':** Let Me Talk as You Want, IEEE Transactions on Information Forensics and Security 2022 [[Paper](https://ieeexplore.ieee.org/abstract/document/9693992)]  
+- **VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]  
 - Talking Face Generation with Multilingual TTS, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Song_Talking_Face_Generation_With_Multilingual_TTS_CVPR_2022_paper.html) | [Code](https://huggingface.co/spaces/CVPR/ml-talking-face)]  
 - **SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation, CVPR2023 [[Paper](https://arxiv.org/abs/2211.12194) | [Code](https://github.com/OpenTalker/SadTalker)]  
+
+#### Speech2Face
+- **FaceFormer:** Speech-Driven 3D Facial Animation with Transformers, CVPR2022 [[Paper](https://arxiv.org/pdf/2112.05329.pdf) | [Code](https://github.com/EvelynFan/FaceFormer)]  
 
 #### Fashion
 - Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
 - FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html)]
 #### Transformer
 - Taming Transformers for High-Resolution Image Synthesis, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/taming-transformers)]  
+
+#### License Plate Recognition
+- 이미지 정합 pseudo-labeling을 이용한 GAN 기반의 seamless 차량번호판 합성영상 생성, 전자공학회논문지2023 [[Paper](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951436)]  
 
 ## Style Transfer
 - A Neural Algorithm of Artistic Style, arXiv2014 [[Paper](https://arxiv.org/abs/1508.06576) | [Code](https://github.com/jcjohnson/neural-style)]  
@@ -377,4 +388,11 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - Displets-resolving stereo ambiguities using object knowledge, CVPR2015, [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Guney_Displets_Resolving_Stereo_2015_CVPR_paper.html) | [Github](https://github.com/edz-o/displet)]  
 
 ## Robotics
-- Continuous-Curvature Paths for Autonomous Vehicles, ICRA1989 [[Paper](https://ieeexplore.ieee.org/abstract/document/100153)]  
+- Continuous-Curvature Paths for Autonomous Vehicles, ICRA1989 [[Paper](https://ieeexplore.ieee.org/abstract/document/100153)]
+
+## Natural Language Processing
+- **BERT:** Pre-training of Deep Bidirectional Transformers for Language Understanding, arXiv2018 [[Paper](https://arxiv.org/abs/1810.04805) | [Code](https://github.com/google-research/bert)]  
+
+## Speech Representation
+- **Wav2Vec2.0:** A Framework for Self-Supervised Learning of Speech Representations, NeurIPS2023, [[Paper](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html) | [Code] 
+ (https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)]  
