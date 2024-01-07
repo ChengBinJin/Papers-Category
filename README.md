@@ -3,8 +3,9 @@ It's the repository for collecting papers that I read and category them accordin
 
 - [Stable Diffusion](#stable-diffusion)
   - [Text to Image](#text-to-image)
-  - [Swap](#swap)  
   - [Text to Video](#text-to-video)
+  - [Image to Video](#image-to-video)
+  - [Swap](#swap)  
   - [Training](#training)  
 - [GANS](#gans)
   - [Training Technique](#training-technique)
@@ -23,7 +24,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Anime](#anime)
   - [Cartoon](#cartoon)
   - [Face Attribute Transfer](#face-attribute-transfer)
-  - [Face Change](#face-change)  
+  - [Face Swap](#face-swap)  
   - [Face Restoration](#face-restoration)
   - [Inpainting](#inpainting)
   - [Visual Driven Image Animation](#visual-driven-image-animation)
@@ -41,6 +42,8 @@ It's the repository for collecting papers that I read and category them accordin
 - [Surveillance](#surveillance)
 - [Visual Planning](#visual-planning)
 - [Face](#face)
+  - [Face2D](#face2d)
+  - [Face3D](#face3d)
 - [Pose](#pose)
   - [Human Pose](#human-pose)
   - [Human Mesh](#human-mesh)
@@ -68,13 +71,17 @@ It's the repository for collecting papers that I read and category them accordin
 - **ControlNet**: Adding Conditional Control to Text-to-Image Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.05543) | [Code](https://github.com/lllyasviel/ControlNet)]  
 - **InstructPix2Pix**: Learning to Follow Image Editing Instructions, CVPR2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper.html) | [Code](https://github.com/timothybrooks/instruct-pix2pix)]  
 
-#### Swap
-**PhotoSwap**: Personalized Subject Swapping in Images, arXiv2023 [[Paper](https://arxiv.org/abs/2305.18286) | [Code](https://github.com/eric-ai-lab/photoswap)]  
-
 #### Text to Video
 - **Gen-1**: Structure and Content-Guided Video Synthesis with Diffusion Models, arXiv2023 [[Paper](https://arxiv.org/abs/2302.03011)]  
 - **Follow Your Pose**: Pose-Guided Text-to-Video Generation using Pose-Free Videos, arXiv2023 [[Paper](https://arxiv.org/abs/2304.01186) | [Code](https://github.com/mayuelala/FollowYourPose)]
 - **Make-Your-Video**: Customized Video Generation using Textual and Structural Guidance, arXiv2023 [[Paper](https://arxiv.org/abs/2306.00943) | [Code](https://github.com/VideoCrafter/Make-Your-Video)]  
+- **AnimateDiff**: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning, arXiv2023 [[Paper](https://arxiv.org/abs/2307.04725) | [Code](https://github.com/guoyww/AnimateDiff)]  
+
+#### Image to Video
+- **MagicAnimate**: Temporally Consistent Human Image Animation using Diffusion Model, arXiv2023 [[Paper](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=MagicAnimate%3A+Temporally+Consistent+Human+Image+Animation+using+Diffusion+Model&btnG=) | [Code](https://github.com/magic-research/magic-animate)]  
+
+#### Swap
+**PhotoSwap**: Personalized Subject Swapping in Images, arXiv2023 [[Paper](https://arxiv.org/abs/2305.18286) | [Code](https://github.com/eric-ai-lab/photoswap)]  
 
 #### Training
 **Textual Inversion**: An Image Is Worth One Word: Personalizing Text-to-image Generation using Textual Inversion, arXiv2023 [[Paper](https://arxiv.org/abs/2208.01618) | [Code](https://github.com/rinongal/textual_inversion)]  
@@ -152,9 +159,11 @@ It's the repository for collecting papers that I read and category them accordin
 - Image-to-Images Translation via Hierarchical Style Disentanglement, CVPR2021 [[Paper](https://arxiv.org/abs/2103.01456) | [Github](https://github.com/imlixinyang/HiSD)]  
 - **HairMapper**: Removing Hair from Portraits using GANs, 3D Mesh Recovery 2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_HairMapper_Removing_Hair_From_Portraits_Using_GANs_CVPR_2022_paper.html) | [Code](https://github.com/oneThousand1000/HairMapper)]  
 
-#### Face Change
+#### Face Swap
 - **SimSwap**: An Efficient Framework for High Fidelity Face Swapping, ICM2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413630) | [Code](https://github.com/neuralchen/SimSwap)]  
-- FaceShifter towards high fidelity and occlusion aware face swapping, CVPR2020 [[Paper](https://arxiv.org/abs/1912.13457) | [Github](https://github.com/mindslab-ai/faceshifter)]
+- **FaceShifter**: towards high fidelity and occlusion aware face swapping, CVPR2020 [[Paper](https://arxiv.org/abs/1912.13457) | [Github](https://github.com/mindslab-ai/faceshifter)]
+- **HifiFace**: 3D Shape and Semantic Prior Guided High Fidelity Face Swapping, IJCAI2021 [[Paper](https://arxiv.org/abs/2106.09965) | [Code]([https://arxiv.org/abs/2106.09965](https://github.com/xuehy/HiFiFace-pytorch))]  
+  
 #### Face Restoration
 - Learning warped guidance for blind face restoration, ECCV2018 [[Ppaer](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.html) | [Github](https://github.com/csxmli2016/GFRNet)]  
 - **GFP-GAN**: Towards Real-World Blind Face Restoration with Generative Facial Prior, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_Real-World_Blind_Face_Restoration_With_Generative_Facial_Prior_CVPR_2021_paper.html) | [Code](https://github.com/TencentARC/GFPGAN)]  
@@ -189,6 +198,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 #### Audio-Driven Image Animation
 - Out of Time: Automated Lip Sync in the Wild, ACCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-54427-4_19) | [Code](https://github.com/joonson/syncnet_python)]
+- **VOCA**: Capture, Learning, and Synthesis of 3D Speaking Styles, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Cudeiro_Capture_Learning_and_Synthesis_of_3D_Speaking_Styles_CVPR_2019_paper.html) | [Code](https://github.com/TimoBolkart/voca)]  
 - **Wav2Lip**: A Lip Sync Expert is All You Need for Speech to Lip Generation in the Wild, ICM2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413532) | [Code](https://github.com/Rudrabha/Wav2Lip)]
 - **LipSync3D**: Data-Efficient Learning of Personalized 3D Talking Faces from Video using Pose and Lighting Normalization, CVPR2021 [[Paper](https://arxiv.org/abs/2106.04185)]
 - **Everybody's Talkin':** Let Me Talk as You Want, IEEE Transactions on Information Forensics and Security 2022 [[Paper](https://ieeexplore.ieee.org/abstract/document/9693992)]  
@@ -276,6 +286,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Self-Supervised Visual Planning with Temporal Skip Connections, CoRL2017 [[Paper](https://proceedings.mlr.press/v78/frederik%20ebert17a/frederik%20ebert17a.pdf)]
 
 ## Face
+### Face2D
 - Are You Really Smiling at Me? Spontaneous versus Posed Enjoyment Smiles, ECCV2012 [[Paper](https://link.springer.com/chapter/10.1007/978-3-642-33712-3_38)]  
 - OpenFace: A General-Purpose Face Recognition Library with Mobile Applications, CMU School of Computer Science 2016 [[Paper](http://reports-archive.adm.cs.cmu.edu/anon/anon/usr0/ftp/2016/CMU-CS-16-118.pdf) | [Code](https://github.com/cmusatyalab/openface)]  
 - How Far Are We From Solving the 2D & 3D Face Alignment Problem? (And A Dataset of 230,000 3D Facial Landmarks), ICCV2017 [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Bulat_How_Far_Are_ICCV_2017_paper.html) | [Code](https://github.com/1adrianb/2D-and-3D-face-alignment)]
@@ -286,13 +297,16 @@ It's the repository for collecting papers that I read and category them accordin
 - Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Adaptive_Wing_Loss_for_Robust_Face_Alignment_via_Heatmap_Regression_ICCV_2019_paper.pdf) | [Code](https://github.com/protossw512/AdaptiveWingLoss)]  
 - **Arcface**: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
 
+### Face3D
+- Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs, arXiv2019 [[Paper](https://arxiv.org/abs/1907.06724)]  
+
 ## Pose
 ### Human Pose
 - Stacked Hourglass Networks for Human Pose Estimation, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46484-8_29) | [Code](https://github.com/wbenbihi/hourglasstensorflow)]  
-- **OpenPose**: Realtim Multi-Person 2D Pose Estimation using Part Affinity Fields, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.html) | [Code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]  
+- **OpenPose**: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields, CVPR2017 [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.html) | [Code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]  
 - Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?, arXiv2021 [[Paper](https://arxiv.org/abs/2107.03332) | [Code](https://github.com/leeyegy/SimDR)]  
 - Human Pose Regression with Residual Log-likelihood Estimation, ICCV2021 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Human_Pose_Regression_With_Residual_Log-Likelihood_Estimation_ICCV_2021_paper.html) | [Code](https://github.com/Jeff-sjtu/res-loglikelihood-regression)]  
-- **HRNet**: Deep High-Resoluiton Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
+- **HRNet**: Deep High-Resolution Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
 - **BlazePose**: On-device Real-time Body Pose Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10204)]  
 - **Lite-HRNet**: A Lightweight High-Resolution Network, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Lite-HRNet_A_Lightweight_High-Resolution_Network_CVPR_2021_paper.html) | [Code](https://github.com/HRNet/Lite-HRNet)]  
 
