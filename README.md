@@ -31,7 +31,6 @@ It's the repository for collecting papers that I read and category them accordin
   - [Visual Driven Image Animation](#visual-driven-image-animation)
   - [Audio-Driven Image Animation](#audio-driven-image-animation)
   - [Speech2Face](#speech2face)
-  - [Fashion](#fashion)
   - [License Plate Recognition](#license-plate-recognition)
   - [Transformer](#transformer)
 - [Dance](#dance)
@@ -68,7 +67,8 @@ It's the repository for collecting papers that I read and category them accordin
 - [Speech Representation](#speech-representation)
 
 ## Virtual Try-on
-- **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]  
+- FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html) | [Code](https://github.com/Skype-line/FiNet-pytorch)]
+- **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]
 
 ## Stable Diffusion
 #### Text to Image
@@ -187,7 +187,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **Recycle-GAN**: Unsupervised Video Retargeting, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Aayush_Bansal_Recycle-GAN_Unsupervised_Video_ECCV_2018_paper.html) | [Code](https://github.com/aayushbansal/Recycle-GAN)]  
 - Synthesizing Images of Humans in Unseen Poses, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.html) | [Code](https://github.com/balakg/posewarp-cvpr2018)]
 - Every Smile is Unique: Landmark-Guided Diverse Smile Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Every_Smile_Is_CVPR_2018_paper.html)]  
-- **MoCoGAN**: Decomposing Motion and Content for Video Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Tulyakov_MoCoGAN_Decomposing_Motion_CVPR_2018_paper.html) | [Code](https://github.com/sergeytulyakov/mocogan)]  
+- **MoCoGAN**: Decomposing Motion and Content for Video Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Tulyakov_MoCoGAN_Decomposing_Motion_CVPR_2018_paper.html) | [Code](https://github.com/sergeytulyakov/mocogan)]
+- Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
 - **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]
 - DwNet: Dense Warp-based Network for Pose-guided Human Video Generation, ECCV2019 [[Paper](https://arxiv.org/abs/1910.09139) | [Code](https://github.com/ubc-vision/DwNet)]  
 - **LWG**: Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.html) | [Code](https://github.com/svip-lab/impersonator)]
@@ -215,9 +216,6 @@ It's the repository for collecting papers that I read and category them accordin
 #### Speech2Face
 - **FaceFormer:** Speech-Driven 3D Facial Animation with Transformers, CVPR2022 [[Paper](https://arxiv.org/pdf/2112.05329.pdf) | [Code](https://github.com/EvelynFan/FaceFormer)]  
 
-#### Fashion
-- Deformable GANs for Pose-based Human Image Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Siarohin_Deformable_GANs_for_CVPR_2018_paper.html) | [Github](https://github.com/AliaksandrSiarohin/pose-gan)]
-- FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html)]
 #### Transformer
 - Taming Transformers for High-Resolution Image Synthesis, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/taming-transformers)]  
 
