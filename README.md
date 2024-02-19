@@ -1,6 +1,7 @@
 # Papers-Category
 It's the repository for collecting papers that I read and category them according to the different objectives.
 
+- [Virtual Try-on](#virtual-try-on)
 - [Stable Diffusion](#stable-diffusion)
   - [Text to Image](#text-to-image)
   - [Text to Video](#text-to-video)
@@ -33,6 +34,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Fashion](#fashion)
   - [License Plate Recognition](#license-plate-recognition)
   - [Transformer](#transformer)
+- [Dance](#dance)
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
 - [Medical](#medical)
@@ -64,6 +66,9 @@ It's the repository for collecting papers that I read and category them accordin
 - [Robotics](#robotics)
 - [Natural Language Processing](#natural-language-processing)
 - [Speech Representation](#speech-representation)
+
+## Virtual Try-on
+- **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]  
 
 ## Stable Diffusion
 #### Text to Image
@@ -183,7 +188,8 @@ It's the repository for collecting papers that I read and category them accordin
 - Synthesizing Images of Humans in Unseen Poses, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.html) | [Code](https://github.com/balakg/posewarp-cvpr2018)]
 - Every Smile is Unique: Landmark-Guided Diverse Smile Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Every_Smile_Is_CVPR_2018_paper.html)]  
 - **MoCoGAN**: Decomposing Motion and Content for Video Generation, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Tulyakov_MoCoGAN_Decomposing_Motion_CVPR_2018_paper.html) | [Code](https://github.com/sergeytulyakov/mocogan)]  
-- **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]  
+- **vid2vid**: Video-to-Video Synthesis, NeurIPS2018, [[Paper](https://arxiv.org/abs/1808.06601) | [Github](https://github.com/NVIDIA/vid2vid)]
+- DwNet: Dense Warp-based Network for Pose-guided Human Video Generation, ECCV2019 [[Paper](https://arxiv.org/abs/1910.09139) | [Code](https://github.com/ubc-vision/DwNet)]  
 - **LWG**: Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.html) | [Code](https://github.com/svip-lab/impersonator)]
 - **MonkeyNet**: Animating Arbitrary Objects via Deep Motion Transfer, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Siarohin_Animating_Arbitrary_Objects_via_Deep_Motion_Transfer_CVPR_2019_paper.html) | [Github](https://github.com/AliaksandrSiarohin/monkey-net)]  
 - Photo Wake-Up: 3D Character Animation from a Single Photo, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Weng_Photo_Wake-Up_3D_Character_Animation_From_a_Single_Photo_CVPR_2019_paper.html)]  
@@ -217,6 +223,9 @@ It's the repository for collecting papers that I read and category them accordin
 
 #### License Plate Recognition
 - 이미지 정합 pseudo-labeling을 이용한 GAN 기반의 seamless 차량번호판 합성영상 생성, 전자공학회논문지2023 [[Paper](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951436)]  
+
+## Dance
+- EDGE: Editable Dance Generation from Music, CVPR2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Tseng_EDGE_Editable_Dance_Generation_From_Music_CVPR_2023_paper.html) | [Code](https://github.com/Stanford-TML/EDGE)]  
 
 ## Style Transfer
 - A Neural Algorithm of Artistic Style, arXiv2014 [[Paper](https://arxiv.org/abs/1508.06576) | [Code](https://github.com/jcjohnson/neural-style)]  
@@ -262,6 +271,7 @@ It's the repository for collecting papers that I read and category them accordin
 - 3D convolutional neural networks for human action recognition, PAMI2013 [[Paper](https://ieeexplore.ieee.org/abstract/document/6165309)]  
 - Real-time human pose recognition in parts from a single depth image, CACM2013 [[Paper](https://dl.acm.org/doi/abs/10.1145/2398356.2398381)]  
 - Efficient human pose estimation from single depth images, PAMI2013 [[Paper](https://ieeexplore.ieee.org/abstract/document/6341759)]
+- Two-Stream Convolutional Networks for Action Recognition in Videos, NeurIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2014/hash/00ec53c4682d36f5c4359f4ae7bd7ba1-Abstract.html) | [Code](https://github.com/feichtenhofer/twostreamfusion)]  
 - 시각장애인 보조를 위한 영상기반 휴먼 행동 인식 시스템, 한국정보과학회논문지2015 [[Paper](http://kiise.or.kr/e_journal/2015/1/JOK/pdf/17.pdf)]
 - Beyond Gaussian Pyramid Multi-skip Feature Stacking for Action Recognition, CVPR2015 [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Lan_Beyond_Gaussian_Pyramid_2015_CVPR_paper.html)]  
 - Delving into Egocentric Actions, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Li_Delving_Into_Egocentric_2015_CVPR_paper.html)]  
@@ -309,6 +319,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **HRNet**: Deep High-Resolution Representation Learning for Human Pose Estimation, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Deep_High-Resolution_Representation_Learning_for_Human_Pose_Estimation_CVPR_2019_paper.html) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
 - **BlazePose**: On-device Real-time Body Pose Tracking, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10204)]  
 - **Lite-HRNet**: A Lightweight High-Resolution Network, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Lite-HRNet_A_Lightweight_High-Resolution_Network_CVPR_2021_paper.html) | [Code](https://github.com/HRNet/Lite-HRNet)]  
+- **DWPose**: Effective Whole-Body Pose Estimation with Two-Stages Distillation, ICCV2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023W/CV4Metaverse/html/Yang_Effective_Whole-Body_Pose_Estimation_with_Two-Stages_Distillation_ICCVW_2023_paper.html) | [Code](https://github.com/IDEA-Research/DWPose)]  
 
 ### Human Mesh
 - Keep It SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_34) | [Code](https://github.com/Jtoo/fitting_human_smpl_model)]
