@@ -7,7 +7,8 @@ It's the repository for collecting papers that I read and category them accordin
   - [Text to Video](#text-to-video)
   - [Image to Video](#image-to-video)
   - [Swap](#swap)  
-  - [Training](#training)  
+  - [Training](#training)
+  - [Inpainting](#inpainting)
 - [GANS](#gans)
   - [Training Technique](#training-technique)
   - [Training with Limited Data](#training-with-limited-data)
@@ -69,6 +70,7 @@ It's the repository for collecting papers that I read and category them accordin
 ## Virtual Try-on
 - FiNet: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html) | [Code](https://github.com/Skype-line/FiNet-pytorch)]
 - **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]
+- **LaDI-VTON**: LaDI-VTON: Latent Diffusion Textual-Inversion Enhanced Virtual Try-On, ACM MM2023 [[Paper](https://arxiv.org/abs/2305.13501) | [Code](https://github.com/miccunifi/ladi-vton)]  
 
 ## Stable Diffusion
 #### Text to Image
@@ -83,13 +85,17 @@ It's the repository for collecting papers that I read and category them accordin
 - **AnimateDiff**: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning, arXiv2023 [[Paper](https://arxiv.org/abs/2307.04725) | [Code](https://github.com/guoyww/AnimateDiff)]  
 
 #### Image to Video
-- **MagicAnimate**: Temporally Consistent Human Image Animation using Diffusion Model, arXiv2023 [[Paper](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=MagicAnimate%3A+Temporally+Consistent+Human+Image+Animation+using+Diffusion+Model&btnG=) | [Code](https://github.com/magic-research/magic-animate)]  
+- **MagicAnimate**: Temporally Consistent Human Image Animation using Diffusion Model, arXiv2023 [[Paper](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=MagicAnimate%3A+Temporally+Consistent+Human+Image+Animation+using+Diffusion+Model&btnG=) | [Code](https://github.com/magic-research/magic-animate)]
+- **AnimateAnyone**: Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation, arXiv2024 [[Paper](https://arxiv.org/abs/2311.17117) | [Code](https://github.com/HumanAIGC/AnimateAnyone)]  
 
 #### Swap
-**PhotoSwap**: Personalized Subject Swapping in Images, arXiv2023 [[Paper](https://arxiv.org/abs/2305.18286) | [Code](https://github.com/eric-ai-lab/photoswap)]  
+- **PhotoSwap**: Personalized Subject Swapping in Images, arXiv2023 [[Paper](https://arxiv.org/abs/2305.18286) | [Code](https://github.com/eric-ai-lab/photoswap)]  
 
 #### Training
-**Textual Inversion**: An Image Is Worth One Word: Personalizing Text-to-image Generation using Textual Inversion, arXiv2023 [[Paper](https://arxiv.org/abs/2208.01618) | [Code](https://github.com/rinongal/textual_inversion)]  
+- **Textual Inversion**: An Image Is Worth One Word: Personalizing Text-to-image Generation using Textual Inversion, arXiv2023 [[Paper](https://arxiv.org/abs/2208.01618) | [Code](https://github.com/rinongal/textual_inversion)]  
+
+#### Inpainting
+- Inpaint Anything: Segment Anything Meets Image Inpainting, arXiv2023 [[Paper](https://arxiv.org/abs/2304.06790) | [Code](https://github.com/geekyutao/Inpaint-Anything)]  
 
 ## GANS
 #### Training Technique  
@@ -242,7 +248,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **CAM**: Learning Deep Features for Discriminative Localization, CVPR2016 [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhou_Learning_Deep_Features_CVPR_2016_paper.html) | [Code](https://github.com/zhoubolei/CAM)]  
 - **MobileNet**: efficient convolutional neural networks for mobile vision applications, arXiv2017 [[Paper](https://arxiv.org/abs/1704.04861) | [Github](https://github.com/Zehaos/MobileNet)]  
 - **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.html) | [Code](https://github.com/megvii-model/ShuffleNet-Series)]  
-- **ShuffleNetv2**: Sh Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]  
+- **ShuffleNetv2**: Sh Practical Guidelines for EfficientCNN Architecture Design, ECCV2018 [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)]
+- Spatial Transformer Networks, NeuralIPS2015 [[Paper](https://proceedings.neurips.cc/paper_files/paper/2015/hash/33ceb07bf4eeb3da587e268d663aba1a-Abstract.html) | [Code](https://github.com/kevinzakka/spatial-transformer-network)]  
 - **MobileNetv2**: inverted residuals and linear bottlenecks, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html) | [Github](https://github.com/d-li14/mobilenetv2.pytorch)]  
 - **MobileNetv3**: Searching for MobileNetV3, ICCV2019 [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) | [Github](https://github.com/leaderj1001/MobileNetV3-Pytorch)]
 - **HRNetv2**: Deep High-Resolution Representation Learning for Visual Recognition, TPAMI2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9052469) | [Code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]  
@@ -306,7 +313,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **Arcface**: Additive Angular Margin Loss for Deep Face Recognition, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html)|[Github](https://github.com/deepinsight/insightface)]  
 
 ### Face3D
-- Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs, arXiv2019 [[Paper](https://arxiv.org/abs/1907.06724)]  
+- Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs, arXiv2019 [[Paper](https://arxiv.org/abs/1907.06724)]
+- Attention Mesh: High-fidelity Face Mesh Prediction in Real-time, arXiv2020 [[Paper](https://arxiv.org/abs/2006.10962)]  
 
 ## Pose
 ### Human Pose
