@@ -70,11 +70,15 @@ It's the repository for collecting papers that I read and category them accordin
 ## Virtual Try-on
 - **VITON**: An Image-based Virtual Try-on Network, CVPR2018 [[Paper](https://arxiv.org/abs/1711.08447) | [Code](https://github.com/xthan/VITON)]  
 - **FiNet**: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html) | [Code](https://github.com/Skype-line/FiNet-pytorch)]
+- **MG-VTON**: Towards Multi-pose Guided Virtual Try-on Network, ICCV2019 [[Paper](https://arxiv.org/abs/1902.11026) | [Code](https://github.com/thaithanhtuan/MyMGVTON?tab=readme-ov-file)]  
+- **PF-AFN**: Parser-Free Virtual Try-on via Distilling Appearance Flows, CVPR2021 [[Paper](https://arxiv.org/abs/2103.04559) | [Code](https://github.com/f-lab-edu/virtual-try-on)]  
 - **VITON-HD**: High-Resolution Virtual Try-on via Misalignment-Aware Normalization, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Choi_VITON-HD_High-Resolution_Virtual_Try-On_via_Misalignment-Aware_Normalization_CVPR_2021_paper.html) | [Code](https://github.com/shadow2496/VITON-HD)]  
 - **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]
+- (Flow-Style-VTON) Style-Based Global Appearance Flow for Virtual Try-On, CVPR2022 [[Paper](https://arxiv.org/abs/2204.01046) | [Code](https://github.com/SenHe/Flow-Style-VTON?tab=readme-ov-file)]  
 - **LaDI-VTON**: LaDI-VTON: Latent Diffusion Textual-Inversion Enhanced Virtual Try-On, ACM MM2023 [[Paper](https://arxiv.org/abs/2305.13501) | [Code](https://github.com/miccunifi/ladi-vton)]  
 - **GP-VTON**: Towards General Purpose Virtual Try-on via Collaborative Local-Flow Global-Parsing Learning, CVPR2023 [[Paper](https://arxiv.org/abs/2303.13756) | [Code](https://github.com/xiezhy6/GP-VTON)]  
 - **DCT**: Diffuse to Choose: Enriching Image Conditioned Inpainting in Latent Diffusion Models for Virtual Try-All, arXiv2024 [[Paper](https://arxiv.org/abs/2401.13795)]  
+- **StableVITON**: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On, CVPR2024 [[Paper](https://arxiv.org/abs/2312.01725) | [Code](https://github.com/rlawjdghek/StableVITON?tab=readme-ov-file)]  
 
 ## Stable Diffusion
 #### Text to Image
@@ -374,14 +378,15 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 ## Iris
 - Robust iris segmentation via simple circular and linear filter, JEI2008, [[Paper](https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-17/issue-4/043027/Robust-iris-segmentation-via-simple-circular-and-linear-filters/10.1117/1.3050067.short?SSO=1)]  
 - Synthesis of Large Realistic Iris Databases using Patch-based Sampling, ICPR2008, [[Paper](https://ieeexplore.ieee.org/abstract/document/4761674)]
-- A new texture analysis appraoch for iris recognition, CCSP2014, [[Paper](https://www.sciencedirect.com/science/article/pii/S2212671614001024)]  
-- Iris-GAN: Learning to Generate Realistic Iris Images Using Convolutional GAN, arXiv2018 [[Paper](https://arxiv.org/abs/1812.04822)]  
+- A new texture analysis approach for iris recognition, CCSP2014, [[Paper](https://www.sciencedirect.com/science/article/pii/S2212671614001024)]  
+- Iris-GAN: Learning to Generate Realistic Iris Images Using Convolutional GAN, arXiv2018 [[Paper](https://arxiv.org/abs/1812.04822)]
+- OpenEDS Open Eye Dataset, arXiv2019 [[Paper](https://arxiv.org/abs/1905.03702)]  
 - MinENet: A Dilated CNN for Semantic Segmentation of Eye Features, ICCVW2019 [[Paper](https://openaccess.thecvf.com/content_ICCVW_2019/html/OpenEDS/Perry_MinENet_A_Dilated_CNN_for_Semantic_Segmentation_of_Eye_Features_ICCVW_2019_paper.html)]  
 
 ## Detection
 - **HOG**: Histograms of oriented gradients for human detection, CVPR2005 [[Paper](https://ieeexplore.ieee.org/abstract/document/1467360)]  
 - Human detection using oriented histograms of oriented gradients, ECCV2006 [[Paper](https://link.springer.com/chapter/10.1007/11744047_33)]  
-- Hybrid cascade boosting machine using variant scale blocks based HOG feature for pedestrain detection, Neurocomputing2014 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231214000277)]  
+- Hybrid cascade boosting machine using variant scale blocks based HOG feature for pedestrian detection, Neurocomputing2014 [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231214000277)]  
 - Recognition using Visual Phrases, CVPR2011 [[Paper](https://ieeexplore.ieee.org/abstract/document/5995711)]  
 - 다양한 사람 방향을 고려한 파트 영역 기반 사람 영역 검출, JKIISE2013 [[Paper](http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE02217486)]  
 - **R-CNN**: Rich feature hierarchies for accurate object detection and semantic segmentation, CVPR2014 [[Paper](https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)]  
