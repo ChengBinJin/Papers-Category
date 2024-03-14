@@ -69,8 +69,8 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## Virtual Try-on
 - **VITON**: An Image-based Virtual Try-on Network, CVPR2018 [[Paper](https://arxiv.org/abs/1711.08447) | [Code](https://github.com/xthan/VITON)]  
-- **VITON-HD**: High-Resolution Virtual Try-on via Misalignment-Aware Normalization, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Choi_VITON-HD_High-Resolution_Virtual_Try-On_via_Misalignment-Aware_Normalization_CVPR_2021_paper.html) | [Code](https://github.com/shadow2496/VITON-HD)]  
 - **FiNet**: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html) | [Code](https://github.com/Skype-line/FiNet-pytorch)]
+- **VITON-HD**: High-Resolution Virtual Try-on via Misalignment-Aware Normalization, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Choi_VITON-HD_High-Resolution_Virtual_Try-On_via_Misalignment-Aware_Normalization_CVPR_2021_paper.html) | [Code](https://github.com/shadow2496/VITON-HD)]  
 - **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]
 - **LaDI-VTON**: LaDI-VTON: Latent Diffusion Textual-Inversion Enhanced Virtual Try-On, ACM MM2023 [[Paper](https://arxiv.org/abs/2305.13501) | [Code](https://github.com/miccunifi/ladi-vton)]  
 - **GP-VTON**: Towards General Purpose Virtual Try-on via Collaborative Local-Flow Global-Parsing Learning, CVPR2023 [[Paper](https://arxiv.org/abs/2303.13756) | [Code](https://github.com/xiezhy6/GP-VTON)]  
