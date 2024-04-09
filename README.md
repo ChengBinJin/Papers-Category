@@ -38,7 +38,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
 - [Medical](#medical)
-- [Image Measurement](#image-measurement)
+- [Measurement](#measurement)
 - [Activity Analysis](#activity-analysis)
 - [Attribute Prediction](#attribute-prediction)
 - [Surveillance](#surveillance)
@@ -96,6 +96,8 @@ It's the repository for collecting papers that I read and category them accordin
 - **MagicAnimate**: Temporally Consistent Human Image Animation using Diffusion Model, arXiv2023 [[Paper](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=MagicAnimate%3A+Temporally+Consistent+Human+Image+Animation+using+Diffusion+Model&btnG=) | [Code](https://github.com/magic-research/magic-animate)]
 - **AnimateAnyone**: Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation, arXiv2024 [[Paper](https://arxiv.org/abs/2311.17117) | [Code](https://github.com/HumanAIGC/AnimateAnyone)]  
 - **MagicPose**: Realistic Human Poses and Facial Expressions Retargeting with Identity-aware Diffusion, arXiv2024 [[Paper](https://arxiv.org/abs/2311.12052) | [Code](https://github.com/boese0601/magicdance)]  
+- **Champ**: Controllable and Consistent Human Image Animation with 3D Parametric Guidance, arXiv2024 [[Paper](https://arxiv.org/abs/2403.14781) | [Code](https://github.com/fudan-generative-vision/champ)]  
+- **Disco**: Disentangled Control for Realistic Human Dance Generation, CVPR2024 [[Paper](https://arxiv.org/abs/2307.00040) | [Code](https://github.com/Wangt-CN/DisCo)]  
 
 #### Swap
 - **PhotoSwap**: Personalized Subject Swapping in Images, arXiv2023 [[Paper](https://arxiv.org/abs/2305.18286) | [Code](https://github.com/eric-ai-lab/photoswap)]  
@@ -212,6 +214,7 @@ It's the repository for collecting papers that I read and category them accordin
 - Textured Neural Avatars, CVPR2019 [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Shysheya_Textured_Neural_Avatars_CVPR_2019_paper.html) | [Code](https://github.com/saic-violet/textured_avatars)]  
 - **FOMM**: First Order Motion Model for Image Animation, NeurIPS2019 [[Paper](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Github](https://github.com/AliaksandrSiarohin/first-order-model)]  
 - Motion-supervised Co-part Segmentation, ICPR2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9412520) | [Code](https://github.com/AliaksandrSiarohin/motion-cosegmentation)]  
+- **MakeItTalk**: Speaker-Aware Talking-Head Animation, TOG2020 [[Paper](https://dl.acm.org/doi/abs/10.1145/3414685.3417774) | [Code](https://github.com/yzhou359/MakeItTalk)]  
 - **MRAA**: Motion Representations for Articulated Animation, CVPR2021 [[Paper](https://arxiv.org/abs/2104.11280) | [Github](https://github.com/snap-research/articulated-animation)]  
 - Stochastic Image-to-Video Synthesis using cINNs, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Dorkenwald_Stochastic_Image-to-Video_Synthesis_Using_cINNs_CVPR_2021_paper.html) | [Code](https://github.com/CompVis/image2video-synthesis-using-cINNs)]  
 - Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_Few-Shot_Human_Motion_Transfer_by_Personalized_Geometry_and_Texture_Modeling_CVPR_2021_paper.html) | [Code](https://github.com/HuangZhiChao95/FewShotMotionTransfer)]  
@@ -269,8 +272,10 @@ It's the repository for collecting papers that I read and category them accordin
 - nnU-Net: Breaking the Spell on Successful Medial Image Segmentation, arXiv2019 [[Paper](http://rumc-gcorg-p-public.s3.amazonaws.com/evaluation-supplementary/599/351f2fd9-01b3-40e0-802c-2929ba10abd3/nnUnet.pdf)]  
 - Generative Adversarial Network in Medical Imaging: A Review, Medical Image Analysis 2019, [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841518308430)]   
 
-## Image Measurement
-- **LPIPS**: The unreasonable effectiveness of deep features as a perceptual metric, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html) | [Github](https://github.com/richzhang/PerceptualSimilarity)]
+## Measurement
+- Image Quality Metrics: PSNR vs. SSIM, ICPR2010 [[Paper](https://ieeexplore.ieee.org/abstract/document/5596999)]  
+- **FVD**: Towards Accurate Generative Models of Video: A New Metric & Challenges, arXiv2018 [[Paper](https://arxiv.org/abs/1812.01717)]  
+- **LPIPS**: The unreasonable effectiveness of deep features as a perceptual metric, CVPR2018 [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html) | [Github](https://github.com/richzhang/PerceptualSimilarity)]    
 
 ## Activity Analysis
 - The recognition of human movement using temporal templates, PAMI2001 [[Paper](https://ieeexplore.ieee.org/abstract/document/910878)]
