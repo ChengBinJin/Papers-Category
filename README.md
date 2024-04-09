@@ -34,7 +34,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Speech2Face](#speech2face)
   - [License Plate Recognition](#license-plate-recognition)
   - [Transformer](#transformer)
-- [Dance](#dance)
+- [Music2Dance](#dance)
 - [Style Transfer](#style-transfer)
 - [Deep Learning](#deep-learning)
 - [Medical](#medical)
@@ -237,7 +237,7 @@ It's the repository for collecting papers that I read and category them accordin
 #### License Plate Recognition
 - 이미지 정합 pseudo-labeling을 이용한 GAN 기반의 seamless 차량번호판 합성영상 생성, 전자공학회논문지2023 [[Paper](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951436)]  
 
-## Dance
+## Music2Dance
 - EDGE: Editable Dance Generation from Music, CVPR2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Tseng_EDGE_Editable_Dance_Generation_From_Music_CVPR_2023_paper.html) | [Code](https://github.com/Stanford-TML/EDGE)]  
 
 ## Style Transfer
