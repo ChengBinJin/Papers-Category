@@ -70,7 +70,8 @@ It's the repository for collecting papers that I read and category them accordin
 ## Virtual Try-on
 - **VITON**: An Image-based Virtual Try-on Network, CVPR2018 [[Paper](https://arxiv.org/abs/1711.08447) | [Code](https://github.com/xthan/VITON)]  
 - **FiNet**: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html) | [Code](https://github.com/Skype-line/FiNet-pytorch)]
-- **MG-VTON**: Towards Multi-pose Guided Virtual Try-on Network, ICCV2019 [[Paper](https://arxiv.org/abs/1902.11026) | [Code](https://github.com/thaithanhtuan/MyMGVTON?tab=readme-ov-file)]  
+- **MG-VTON**: Towards Multi-pose Guided Virtual Try-on Network, ICCV2019 [[Paper](https://arxiv.org/abs/1902.11026) | [Code](https://github.com/thaithanhtuan/MyMGVTON?tab=readme-ov-file)]
+- **O-VITON**: Image Based Virtual Try-on Network from Unpaired Data, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Neuberger_Image_Based_Virtual_Try-On_Network_From_Unpaired_Data_CVPR_2020_paper.html) | [Code](https://github.com/trinanjan12/Image-Based-Virtual-Try-on-Network-from-Unpaired-Data)]  
 - **PF-AFN**: Parser-Free Virtual Try-on via Distilling Appearance Flows, CVPR2021 [[Paper](https://arxiv.org/abs/2103.04559) | [Code](https://github.com/f-lab-edu/virtual-try-on)]  
 - **VITON-HD**: High-Resolution Virtual Try-on via Misalignment-Aware Normalization, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Choi_VITON-HD_High-Resolution_Virtual_Try-On_via_Misalignment-Aware_Normalization_CVPR_2021_paper.html) | [Code](https://github.com/shadow2496/VITON-HD)]  
 - **Dress Code**: High-Resolution Multi-Category Virtual Try-on, ECCV20022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Morelli_Dress_Code_High-Resolution_Multi-Category_Virtual_Try-On_CVPRW_2022_paper.html) | [Code](https://github.com/aimagelab/dress-code)]
@@ -110,6 +111,7 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## GANS
 #### Training Technique  
+- Stylegan-Human: A Data-centric odyssey of Human Generation, ECCV2022 [[Paper](https://arxiv.org/abs/2204.11823) | [Code](https://github.com/stylegan-human/StyleGAN-Human)]  
 - Improved techniques for training GANs, NeurIPS2014 [[Paper](http://papers.nips.cc/paper/6124-improved-techniques-for-training-gans) | [Github](https://github.com/openai/improved-gan)]  
 - **InfoGAN**: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, NeurIPS2016 [[Paper](https://arxiv.org/abs/1606.03657) | [Github](https://github.com/eriklindernoren/PyTorch-GAN#infogan)]  
 #### Training with Limited Data
@@ -230,6 +232,7 @@ It's the repository for collecting papers that I read and category them accordin
 - **VideoReTalking**: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild, SIGGRAPH Assia 2022 [[Paper](https://dl.acm.org/doi/abs/10.1145/3550469.3555399) | [Code](https://github.com/OpenTalker/video-retalking)]  
 - Talking Face Generation with Multilingual TTS, CVPR2022 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Song_Talking_Face_Generation_With_Multilingual_TTS_CVPR_2022_paper.html) | [Code](https://huggingface.co/spaces/CVPR/ml-talking-face)]  
 - **SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation, CVPR2023 [[Paper](https://arxiv.org/abs/2211.12194) | [Code](https://github.com/OpenTalker/SadTalker)]  
+- **SyncTalk**: The Devil is in the Synchronization for Talking Head Synthesis, CVPR2024 [[Paper](https://arxiv.org/abs/2311.17590) | [Code](https://github.com/ZiqiaoPeng/SyncTalk)]  
 
 #### Speech2Face
 - **FaceFormer:** Speech-Driven 3D Facial Animation with Transformers, CVPR2022 [[Paper](https://arxiv.org/pdf/2112.05329.pdf) | [Code](https://github.com/EvelynFan/FaceFormer)]  
@@ -405,6 +408,8 @@ Authors, ECCV2016 [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-4
 - **FCN**: Fully Convolutional Networks for Semantic Segmentation, CVPR2015 [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) | [Code](https://github.com/shelhamer/fcn.berkeleyvision.org)]  
 
 ## Depth Estimation
+- Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos, CVPR2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jafarian_Learning_High_Fidelity_Depths_of_Dressed_Humans_by_Watching_Social_CVPR_2021_paper.html) | [Code](https://github.com/yasaminjafarian/HDNet_TikTok)]  
+- Denspose: Dense Human Pose Estimation In The Wild, CVPR2018 [[Paper](https://arxiv.org/abs/1802.00434) | [Code](https://github.com/facebookresearch/DensePose)]  
 - Make3d: Depth Perception from a Single Still Image, AAAI2008 [[Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.aaai.org%2FPapers%2FAAAI%2F2008%2FAAAI08-265.pdf&clen=1745360&chunk=true)]  
 - Depth Map Prediction from a Single Image using a Multi-scale Deep Network, NeurIPS2014 [[Paper](https://proceedings.neurips.cc/paper/2014/hash/7bccfde7714a1ebadf06c5f4cea752c1-Abstract.html) | [Code](https://github.com/hjimce/Depth-Map-Prediction)]  
 - Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-scale Convolutional Architecture, ICCV2015 [[Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Eigen_Predicting_Depth_Surface_ICCV_2015_paper.html)]  
