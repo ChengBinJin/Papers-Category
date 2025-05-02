@@ -1,7 +1,7 @@
 # Papers-Category
 It's the repository for collecting papers that I read and category them according to the different objectives.
 
-- [Autio2Motion](#audio2motion)
+- [Audio2Motion](#audio2motion)
 - [Virtual Try-on](#virtual-try-on)
 - [Stable Diffusion](#stable-diffusion)
   - [Text to Image](#text-to-image)
