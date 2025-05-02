@@ -1,6 +1,7 @@
 # Papers-Category
 It's the repository for collecting papers that I read and category them according to the different objectives.
 
+- [Autio2Motion](#audio2motion)
 - [Virtual Try-on](#virtual-try-on)
 - [Stable Diffusion](#stable-diffusion)
   - [Text to Image](#text-to-image)
@@ -16,6 +17,7 @@ It's the repository for collecting papers that I read and category them accordin
   - [Loss](#loss)
   - [Compression](#compression)
   - [VAE](#vae)
+  - [Text2Video](#text2video)
   - [Toonify](#toonify)
   - [Supervised Image-to-Image Translation](#supervised-image-to-image-translation)
   - [Unsupervised Image-to-Image Translation](#unsupervised-image-to-image-translation)
@@ -67,6 +69,13 @@ It's the repository for collecting papers that I read and category them accordin
 - [Natural Language Processing](#natural-language-processing)
 - [Speech Representation](#speech-representation)
 
+## Autio2Motion
+### Diffusion
+- **VLOGGER**: VLOGGER: Multimodal Diffusion for Embodied Avatar Synthesis, arXiv2024 [[Paper](https://enriccorona.github.io/vlogger/paper.pdf)]  
+- **FantasyTalking**: FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis, arXiv2025 [[Paper](https://arxiv.org/abs/2504.04842) | [Code](https://github.com/Fantasy-AMAP/fantasy-talking)]
+### GAN
+- Audio-driven Neural Gesture Reenactment with Video Motion Graphs, CVPR2022 [[Paper](https://arxiv.org/abs/2207.11524) | [Code](https://github.com/yzhou359/vid-reenact)]
+
 ## Virtual Try-on
 - **VITON**: An Image-based Virtual Try-on Network, CVPR2018 [[Paper](https://arxiv.org/abs/1711.08447) | [Code](https://github.com/xthan/VITON)]  
 - **FiNet**: Compatible and Diverse Fashion Image Inpainting, ICCV2019 [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_FiNet_Compatible_and_Diverse_Fashion_Image_Inpainting_ICCV_2019_paper.html) | [Code](https://github.com/Skype-line/FiNet-pytorch)]
@@ -111,9 +120,11 @@ It's the repository for collecting papers that I read and category them accordin
 
 ## GANS
 #### Training Technique  
-- Stylegan-Human: A Data-centric odyssey of Human Generation, ECCV2022 [[Paper](https://arxiv.org/abs/2204.11823) | [Code](https://github.com/stylegan-human/StyleGAN-Human)]  
+- **cGAN**: Conditional Generative Adversarial Nets, NIPS2014 [[Paper](https://arxiv.org/abs/1411.1784)]  
 - Improved techniques for training GANs, NeurIPS2014 [[Paper](http://papers.nips.cc/paper/6124-improved-techniques-for-training-gans) | [Github](https://github.com/openai/improved-gan)]  
-- **InfoGAN**: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, NeurIPS2016 [[Paper](https://arxiv.org/abs/1606.03657) | [Github](https://github.com/eriklindernoren/PyTorch-GAN#infogan)]  
+- - **InfoGAN**: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, NeurIPS2016 [[Paper](https://arxiv.org/abs/1606.03657) | [Github](https://github.com/eriklindernoren/PyTorch-GAN#infogan)]  
+- Stylegan-Human: A Data-centric odyssey of Human Generation, ECCV2022 [[Paper](https://arxiv.org/abs/2204.11823) | [Code](https://github.com/stylegan-human/StyleGAN-Human)]  
+
 #### Training with Limited Data
 - **Freeze-D**: Freeze the Discriminator: A Simple Baseline forFine-Tuning GANs, arXiv2020 [[Paper](https://arxiv.org/abs/2002.10964) | [Github](https://github.com/sangwoomo/FreezeD)]  
 - **StyleGAN2-ADA**: Training Generative Adversarial Networks with Limited Data, arXiv2020 [[Paper](https://arxiv.org/abs/2006.06676) | [Github](https://github.com/NVlabs/stylegan2-ada)]  
@@ -127,6 +138,8 @@ It's the repository for collecting papers that I read and category them accordin
 - GAN compression: efficient architectures for interactive conditional GANs, CVPR2020 [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Li_GAN_Compression_Efficient_Architectures_for_Interactive_Conditional_GANs_CVPR_2020_paper.html) | [Github](https://github.com/mit-han-lab/gan-compression)]
 #### VAE
 - Autoencoding beyond pixels using a learned similarity metric, ICML2016, [[Paper](http://proceedings.mlr.press/v48/larsen16.html) | [Github](https://github.com/andersbll/autoencoding_beyond_pixels)]  
+#### Text2Video
+- Conditional GAN with Discriminative Filter Generation for Text-to-Video Synthesis, IJCAI2019 [[Paper](https://www.ijcai.org/proceedings/2019/0276.pdf) | [Git](https://github.com/minrq/CGAN_Text2Video)]
 #### Toonify 
 - Resolution dependent GAN interpolation for controllable image synthesis between domains, arXiv2020 [[Paper](https://arxiv.org/abs/2010.05334) | [Github](https://github.com/justinpinkney/stylegan2)]  
 - Unsupervised image-to-image translation via pre-trained StyleGAN2 Network, arXiv2020 [[Paper](Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network) | [Github](https://github.com/HideUnderBush/UI2I_via_StyleGAN2)]  
