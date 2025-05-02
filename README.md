@@ -69,7 +69,7 @@ It's the repository for collecting papers that I read and category them accordin
 - [Natural Language Processing](#natural-language-processing)
 - [Speech Representation](#speech-representation)
 
-## Autio2Motion
+## Audio2Motion
 ### Diffusion
 - **VLOGGER**: VLOGGER: Multimodal Diffusion for Embodied Avatar Synthesis, arXiv2024 [[Paper](https://enriccorona.github.io/vlogger/paper.pdf)]  
 - **FantasyTalking**: FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis, arXiv2025 [[Paper](https://arxiv.org/abs/2504.04842) | [Code](https://github.com/Fantasy-AMAP/fantasy-talking)]
